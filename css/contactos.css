@@ -1,0 +1,6 @@
+@import url('styles.css');
+
+nav ul li a {
+    color: #40769f;
+    text-decoration: none;
+}

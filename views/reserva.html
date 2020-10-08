@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Villa Canina</title>
+</head>
+<body>
+<header>
+    <!--imagen logo-->
+    <h1>La Villa Canina</h1>
+</header>
+<nav>
+    <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="reserva.html">Reservacion</a></li>
+        <li><a href="contactos.html">Contactos</a></li>
+        <li><a href="refugio.html">Refugio</a></li>
+    </ul>
+</nav>
+<section>
+    <form action="">
+        <fieldset>
+            <!--Formularios para los datos de la mascota-->
+            <!--poner para agregar otra mascota +-->
+            <legend>Datos de las Mascotas</legend>
+            <label for="puppyName" >Nombre del Cachorro *</label>
+            <input type="text"  placeholder="Ingrese el nombre de su mascota" id="puppyName" required>
+            <br>
+            <br>
+
+            <span>Sexo</span><br>
+            <input type="radio" value="F" name="sexo" id="female">
+            <label for="female">Femenino</label>
+            <input type="radio" value="M" name="sexo" id="male">
+            <label for="male">Masculino</label>
+            <br>
+            <br>
+
+            <label for="age">Edad</label>
+            <select id="age">
+                <option value="">Años</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">6</option>
+                <option value="">7</option>
+                <option value="">8</option>
+                <option value="">9</option>
+                <option value="">10</option>
+                <option value="">11</option>
+                <option value="">12</option>
+                <option value="">13</option>
+                <option value="">14</option>
+                <option value="">15</option>
+                <option value="">16</option>
+                <option value="">17</option>
+                <option value="">18</option>
+                <option value="">19</option>
+                <option value="">20</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="breed">Raza</label>
+            <input type="text"  placeholder="Raza de su mascota" id="breed">
+            <br>
+            <br>
+
+            <label for="dateIn">Fecha de Ingreso *</label>
+            <input type="date" id="dateIn" required>
+            <br>
+            <br>
+
+            <label for="dateOut">Fecha de Salida *</label>
+            <input type="date" id="dateOut" required>
+            <br>
+            <br>
+
+            <label for="comments1">Comentarios</label><br>
+            <textarea name=" " id="comments1" cols="30" rows="10" placeholder="Escriba sus comentarios aqui"></textarea>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <!--Formulario para los datos de los Dueños-->
+            <legend>Datos de los Dueños</legend>
+            <label for="name1" >Nombre y Apellido *</label>
+            <input type="text"  placeholder="Ingrese su nombre y apellido" id="name1" required>
+            <br>
+            <br>
+
+            <label for="mail">Correo *</label>
+            <input type="email" id="mail" required>
+            <br>
+            <br>
+
+            <label for="phone">Telefono *</label>
+            <input type="tel" id="phone" required> <!--solo puede admitir numeros-->
+            <br>
+            <br>
+
+            <label for="comments2">Comentarios</label><br>
+            <textarea name=" " id="comments2" cols="30" rows="10" placeholder="Escriba sus comentarios aqui"></textarea>
+            <br>
+            <br>
+        </fieldset>
+        <br>
+        <!--BOTONES-->
+        <input type="submit">
+        <input type="reset">
+    </select>
+    </form>
+</section>
+<footer>
+    <p>Contactos</p>
+    <p>Nosotros</p>
+</footer>
+</body>
+</html>

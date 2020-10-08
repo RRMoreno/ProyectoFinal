@@ -1,0 +1,43 @@
+.centrar {
+    text-align: justify-all;
+}
+
+body{
+
+}
+
+nav {
+    color: #007bff;
+}
+.log{
+    width: 80px;
+
+}
+nav ul {
+    list-style-type: none;
+}
+
+.navegacion {
+    color: #007bff;
+}
+
+.navegacion ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+/*no son los colores finales*/
+.titulo1 {
+    color: #4085f1;
+
+}
+h1 {
+    color: #6c2eb9;
+    font-weight: normal;
+    font-size: 40px;
+    font-family: "Lucida Calligraphy", cursive;
+    text-transform: uppercase;
+}
+
+.texto {
+    color: #1e74ff;
+}
