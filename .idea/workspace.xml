@@ -19,7 +19,30 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57c5547d-b614-4796-bcec-930e3b22a387" name="Default Changelist" comment="wip" />
+    <list default="true" id="57c5547d-b614-4796-bcec-930e3b22a387" name="Default Changelist" comment="wip">
+      <change afterPath="$PROJECT_DIR$/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/img.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sky.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fondo.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/fondo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/footer.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/footer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/footer1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sky2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/sky2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/contactos.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/contactos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/petshop.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/petshop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/refugio.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/refugio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/reserva.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/reserva.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/servicios.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/servicios.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +94,8 @@
       <workItem from="1602079079611" duration="7193000" />
       <workItem from="1602093537291" duration="5561000" />
       <workItem from="1602109027504" duration="3975000" />
-      <workItem from="1602168848115" duration="16000" />
+      <workItem from="1602168848115" duration="8165000" />
+      <workItem from="1602254870794" duration="15443000" />
     </task>
     <task id="LOCAL-00001" summary="moved doc">
       <created>1601986345103</created>
@@ -137,14 +161,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602105892453" />
-    <state x="829" y="417" key="Github.ShareDialog" timestamp="1601986284518">
+    <state x="784" y="439" key="Github.CreateGistDialog" timestamp="1602168900978">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="829" y="417" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601986284518" />
-    <state x="801" y="224" key="Github.UntrackedFilesDialog" timestamp="1601986293221">
+    <state x="784" y="439" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602168900978" />
+    <state x="829" y="417" key="Github.ShareDialog" timestamp="1602169029940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="801" y="224" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601986293221" />
+    <state x="829" y="417" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602169029940" />
+    <state x="801" y="224" key="Github.UntrackedFilesDialog" timestamp="1602169049712">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="801" y="224" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602169049712" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1602168863646">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

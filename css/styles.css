@@ -2,8 +2,8 @@
     text-align: justify-all;
 }
 
-body{
-
+.parrafo{
+    font-size: medium;
 }
 
 nav {
@@ -31,13 +31,46 @@ nav ul {
 
 }
 h1 {
+    text-align: center;
     color: #6c2eb9;
     font-weight: normal;
-    font-size: 40px;
+    font-size: 5vw;
     font-family: "Lucida Calligraphy", cursive;
-    text-transform: uppercase;
+
+}
+header{
+    background-image: url("../img/sky2.png");
 }
 
 .texto {
-    color: #1e74ff;
+    color: #111111;
 }
+
+footer{
+    background-image: url("../img/footer.png ");
+    padding-top: 50px;
+
+}
+
+.contenedor {
+    text-align: center;
+    border-top: double 3px gainsboro;
+    padding-top: 20px;
+
+}
+
+.social{
+    text-align: center;
+    color: #6f6f70;
+    padding-top: 20px;
+    opacity: 0.5;
+
+}
+
+.marca{
+    text-align: center;
+    opacity: 0.5;
+    color: #111111;
+}
+
+
