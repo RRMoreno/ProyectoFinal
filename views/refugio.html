@@ -2,35 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/contactos.css">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="../css/contactos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
     <title>La Villa Canina</title>
 </head>
 <body>
 <header>
     <!--imagen logo-->
     <h1>La Villa Canina</h1>
-    <input type="search" placeholder="Search">
-    <i class="fa fa-search" aria-hidden="true"></i>
+    <input class="search" placeholder="Search" type="search">
+    <i aria-hidden="true" class="fa fa-search"></i>
 </header>
-<nav>
+<nav class="navegacion" id="main-menu">
     <ul>
         <li><a href="../index.html">Home</a></li>
         <li><a href="servicios.html">Servicios</a></li>
+        <!--<ul>
+                       <li>Guarderia</li>
+                       <li>SPA</li>
+                       <li>Zona de Juegos</li>
+                       <li>Unidad Veterinaria</li>
+                       <li><a href="views/petshop.html"> PetShop </a></li>
+                       <li>Movilidad</li>
+                   </ul>-->
         <li><a href="reserva.html">Reservacion</a></li>
         <li><a href="contactos.html">Contactos</a></li>
         <li><a href="refugio.html">Refugio</a></li>
     </ul>
+    <br>
 </nav>
-<section>
+<section class="centrar">
     <h2>Refugio</h2>
-    <p>Los cachorros que se encuentran en el Refugio fueron rescatados de las más diversas situaciones de maltrato, abandono y crueldad. Una vez recuperados, castrados y vacunados, comienza la búsqueda de un hogar responsable y amoroso para ellos. </p>
-    <p>Si no puedes adoptar tambien tenemos la opcion de <strong>"Padrinos"</strong>, puedes apadrinar a uno de nuestros cachorros, venir a jugar con el y darle muchos mimos mientras le buscamos una familia definitiva</p>
+    <p>Los cachorros que se encuentran en el Refugio fueron rescatados de las más diversas situaciones de maltrato,
+        abandono y crueldad. Una vez recuperados, castrados y vacunados, comienza la búsqueda de un hogar responsable y
+        amoroso para ellos. </p>
+    <p>Si no puedes adoptar tambien tenemos la opcion de <strong>"Padrinos"</strong>, puedes apadrinar a uno de nuestros
+        cachorros, venir a jugar con el y darle muchos mimos mientras le buscamos una familia definitiva</p>
     <!--galeria con las imagenes de los perritos en adopcion -->
     <h3>Listos para ADOPCION</h3>
-    <p>aqui va una galeria </p>
+    <!--aqui va una galeria-->
     <table border="1px solid black"><!--solo por ahora luego se vera mejor-->
         <tr>
             <th>Nombre</th>
@@ -84,8 +98,27 @@
     <p>Luego de ser adoptados los nuevos dueños pueden cambiar el nombre</p>
 </section>
 <footer>
-    <p>Contactos</p>
-    <p>Nosotros</p>
+    <div class="footer">
+        <div class="contenedor">
+            <span><a href="contactos.html"> Contactanos </a></span>
+            <span>|</span>
+            <span><a href="servicios.html">Servicios</a></span>
+            <span>|</span>
+            <span><a href="reserva.html">Reservacion</a></span>
+            <span>|</span>
+            <span><a href="refugio.html">Refugio</a></span>
+            <span>|</span>
+            <span><a href="../index.html"> Nosotros </a></span>
+        </div>
+        <div class="social">
+            <i aria-hidden="true" class="fa fa-facebook-square"></i>
+            <i aria-hidden="true" class="fa fa-instagram"></i>
+            <i aria-hidden="true" class="fa fa-twitter"></i>
+        </div>
+        <div class="marca">
+            <p>(C) La Villa Canina | Todos los derechos reservados</p>
+        </div>
+    </div>
 </footer>
 </body>
 </html>

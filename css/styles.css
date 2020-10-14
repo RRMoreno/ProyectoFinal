@@ -1,54 +1,73 @@
 .centrar {
     text-align: justify-all;
+    color: #111111;
+    font-family: 'Didact Gothic', sans-serif;
+
 }
 
-.parrafo{
+body {;
+}
+
+
+.parrafo {
     font-size: medium;
+
 }
 
 nav {
     color: #007bff;
-}
-.log{
-    width: 80px;
+
 
 }
+
+.log {
+    width: 4rem;
+
+}
+
 nav ul {
     list-style-type: none;
+
 }
 
 .navegacion {
     color: #007bff;
 }
 
-.navegacion ul li a {
-    color: #007bff;
-    text-decoration: none;
+.navegacion ul li {
+    display: inline;
 }
-/*no son los colores finales*/
-.titulo1 {
-    color: #4085f1;
+
+.navegacion ul li a {
+    color: #4293ba;
+    text-decoration: none;
+    margin-right: 10px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: bold;
 
 }
+
+/*no son los colores finales*/
+
 h1 {
     text-align: center;
-    color: #6c2eb9;
     font-weight: normal;
+    color: #4085f1;
     font-size: 5vw;
-    font-family: "Lucida Calligraphy", cursive;
+    font-family: 'Dancing Script', cursive;
 
 }
-header{
+
+header {
     background-image: url("../img/sky2.png");
 }
 
-.texto {
-    color: #111111;
-}
 
-footer{
+footer {
     background-image: url("../img/footer.png ");
-    padding-top: 50px;
+    padding-top: 4rem;
+    font-family: 'Didact Gothic', sans-serif;
+
 
 }
 
@@ -57,20 +76,36 @@ footer{
     border-top: double 3px gainsboro;
     padding-top: 20px;
 
+
 }
 
-.social{
+.contenedor span a {
+    text-decoration: none;
+}
+
+.social {
     text-align: center;
-    color: #6f6f70;
+    color: #010111;
     padding-top: 20px;
     opacity: 0.5;
 
 }
 
-.marca{
+.marca {
     text-align: center;
     opacity: 0.5;
-    color: #111111;
+    color: #090000;
 }
 
+.search {
+    border-radius: 10px;
+}
 
+.formulario {
+    border-radius: 5px;
+}
+
+.bottom {
+    border-radius: unset;
+    /*float: right;*/
+}
