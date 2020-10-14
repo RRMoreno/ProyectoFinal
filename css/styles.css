@@ -4,13 +4,17 @@
     font-family: 'Didact Gothic', sans-serif;
 
 }
+a {
+    text-decoration: none;
+    color: #4293ba;
+}
 
 body {;
 }
 
 
 .parrafo {
-    font-size: medium;
+    font-size: 1rem;
 
 }
 
@@ -38,6 +42,10 @@ nav ul {
     display: inline;
 }
 
+.navegacion ul.vertical-list li {
+    display: list-item;
+}
+
 .navegacion ul li a {
     color: #4293ba;
     text-decoration: none;
@@ -60,6 +68,7 @@ h1 {
 
 header {
     background-image: url("../img/sky2.png");
+    background-size: contain;
 }
 
 
@@ -108,4 +117,36 @@ footer {
 .bottom {
     border-radius: unset;
     /*float: right;*/
+}
+
+ul {
+    list-style: none;
+    font-size: 0 /* truco por el uso de inline-block*/
+}
+
+li {
+    display: inline-block;
+    position: relative;
+    font-size: 1rem;
+}
+
+ul ul {
+    position: absolute;
+    display: none;
+}
+
+ul ul li {
+    display: block;
+}
+ul ul li {
+    padding: 0 10px;
+    border-bottom: 1px solid #b7d1e0;
+}
+
+ul li:hover ul {
+    display: block;
+    background-color: #ebf6fb;
+    width: max-content;
+    left: 20px;
+    padding: 0;
 }
