@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57c5547d-b614-4796-bcec-930e3b22a387" name="Default Changelist" comment="menu superior en linea">
+    <list default="true" id="57c5547d-b614-4796-bcec-930e3b22a387" name="Default Changelist" comment="menu dinamico en css">
+      <change afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,13 +53,16 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Clase 3/multimedias.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CODERHOUSE\ProyectoFinal\css" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\CODERHOUSE\Proyecto final\docs" />
     </key>
@@ -77,7 +80,7 @@
       <workItem from="1602093537291" duration="5561000" />
       <workItem from="1602109027504" duration="3975000" />
       <workItem from="1602168848115" duration="8165000" />
-      <workItem from="1602254870794" duration="39012000" />
+      <workItem from="1602254870794" duration="39767000" />
     </task>
     <task id="LOCAL-00001" summary="moved doc">
       <created>1601986345103</created>
@@ -121,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602687297336</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="menu dinamico en css">
+      <created>1602689265562</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1602689265562</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,9 +157,14 @@
     <MESSAGE value="moved doc" />
     <MESSAGE value="wip" />
     <MESSAGE value="menu superior en linea" />
-    <option name="LAST_COMMIT_MESSAGE" value="menu superior en linea" />
+    <MESSAGE value="menu dinamico en css" />
+    <option name="LAST_COMMIT_MESSAGE" value="menu dinamico en css" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="739" y="255" key="#HTTP_Proxy" timestamp="1602689318961">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="255" key="#HTTP_Proxy/0.0.1920.1040@0.0.1920.1040" timestamp="1602689318961" />
     <state x="707" y="374" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1602609529411">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -178,10 +193,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602168863646" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1602687305767">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1602689266600">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602687305767" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602689266600" />
     <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1602621575650">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
