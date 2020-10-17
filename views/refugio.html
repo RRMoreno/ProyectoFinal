@@ -3,39 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <link href="../css/contactos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
     <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/styles.css" rel="stylesheet">
     <title>La Villa Canina</title>
 </head>
 <body>
 <header>
-    <!--imagen logo-->
-    <h1>La Villa Canina</h1>
-    <input class="search" placeholder="Search" type="search">
-    <i aria-hidden="true" class="fa fa-search"></i>
+    <div class="left-header">
+        <div>
+            <a href="index.html">
+                <img class="logoImg" src="../img/logofina2.png" alt="">
+            </a>
+        </div>
+        <h1 class="titulo1">La Villa Canina</h1>
+    </div>
+    <div class="right-header">
+        <input class="search" placeholder="Search" type="search">
+        <i aria-hidden="true" class="fa fa-search"></i>
+    </div>
 </header>
 <nav class="navegacion" id="main-menu">
     <ul>
         <li><a href="../index.html">Home</a></li>
-        <li><a href="servicios.html">Servicios</a></li>
-        <!--<ul>
-                       <li>Guarderia</li>
-                       <li>SPA</li>
-                       <li>Zona de Juegos</li>
-                       <li>Unidad Veterinaria</li>
-                       <li><a href="views/petshop.html"> PetShop </a></li>
-                       <li>Movilidad</li>
-                   </ul>-->
+        <li>
+            <a href="servicios.html">Servicios</a>
+            <ul class="vertical-list">
+                <li><a href="">Guarderia</a></li>
+                <li><a href="">SPA</a></li>
+                <li><a href="">Zona de Juegos</a></li>
+                <li><a href="">Unidad Veterinaria</a></li>
+                <li><a href="petshop.html">PetShop</a></li>
+                <li><a href="">Movilidad</a></li>
+            </ul>
+        </li>
         <li><a href="reserva.html">Reservacion</a></li>
         <li><a href="contactos.html">Contactos</a></li>
         <li><a href="refugio.html">Refugio</a></li>
     </ul>
-    <br>
+
 </nav>
-<section class="centrar">
+<main class="centrar">
     <h2>Refugio</h2>
     <p>Los cachorros que se encuentran en el Refugio fueron rescatados de las más diversas situaciones de maltrato,
         abandono y crueldad. Una vez recuperados, castrados y vacunados, comienza la búsqueda de un hogar responsable y
@@ -96,29 +106,26 @@
         </tr>
     </table>
     <p>Luego de ser adoptados los nuevos dueños pueden cambiar el nombre</p>
-</section>
+</main>
 <footer>
-    <div class="footer">
-        <div class="contenedor">
-            <span><a href="contactos.html"> Contactanos </a></span>
-            <span>|</span>
-            <span><a href="servicios.html">Servicios</a></span>
-            <span>|</span>
-            <span><a href="reserva.html">Reservacion</a></span>
-            <span>|</span>
-            <span><a href="refugio.html">Refugio</a></span>
-            <span>|</span>
-            <span><a href="../index.html"> Nosotros </a></span>
-        </div>
-        <div class="social">
-            <i aria-hidden="true" class="fa fa-facebook-square"></i>
-            <i aria-hidden="true" class="fa fa-instagram"></i>
-            <i aria-hidden="true" class="fa fa-twitter"></i>
-        </div>
-        <div class="marca">
-            <p>(C) La Villa Canina | Todos los derechos reservados</p>
-        </div>
+    <div class="contenedor">
+        <ul>
+            <li><a href="views/contactos.html"> Contactanos </a></li>
+            <li><a href="views/servicios.html">Servicios</a></li>
+            <li><a href="views/reserva.html">Reservacion</a></li>
+            <li><a href="views/refugio.html">Refugio</a></li>
+            <li class="exception"><a href="index.html"> Nosotros </a></li>
+        </ul>
     </div>
+    <div class="social">
+        <i aria-hidden="true" class="fa fa-facebook-square"></i>
+        <i aria-hidden="true" class="fa fa-instagram"></i>
+        <i aria-hidden="true" class="fa fa-twitter"></i>
+    </div>
+    <div class="marca">
+        <p>(C) La Villa Canina | Todos los derechos reservados</p>
+    </div>
+
 </footer>
 </body>
 </html>

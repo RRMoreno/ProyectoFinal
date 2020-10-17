@@ -19,10 +19,53 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57c5547d-b614-4796-bcec-930e3b22a387" name="Default Changelist" comment="menu dinamico en css">
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
+    <list default="true" id="57c5547d-b614-4796-bcec-930e3b22a387" name="Default Changelist" comment="removing .zip">
+      <change afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/chimuelo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/chimuelo0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/chimuelo2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/chimuelo3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/chimuelo4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/chimuelo5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/chimuelo6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/chimuelo7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/chimuelo8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/chimuelo9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/guarderia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/instalaciones.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/instalaciones1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/instalaciones2.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logofina2.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logofina2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/movilidad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/petshop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/petshop1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/petshop2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/piscina.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/piscina2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/spa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/mock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/contactos.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fondo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo3.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo4.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logofina.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/patitas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/patitas2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/patitas3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/patitas4.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/contactos.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/contactos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/petshop.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/petshop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/refugio.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/refugio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/reserva.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/reserva.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/servicios.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/servicios.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +77,7 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -60,11 +104,11 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\CODERHOUSE\ProyectoFinal\css" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\CODERHOUSE\Proyecto final\docs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CODERHOUSE\ProyectoFinal\css" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -80,7 +124,8 @@
       <workItem from="1602093537291" duration="5561000" />
       <workItem from="1602109027504" duration="3975000" />
       <workItem from="1602168848115" duration="8165000" />
-      <workItem from="1602254870794" duration="39767000" />
+      <workItem from="1602254870794" duration="40922000" />
+      <workItem from="1602705740222" duration="19342000" />
     </task>
     <task id="LOCAL-00001" summary="moved doc">
       <created>1601986345103</created>
@@ -131,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602689265562</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="removing .zip">
+      <created>1602689750419</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602689750419</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,7 +210,8 @@
     <MESSAGE value="wip" />
     <MESSAGE value="menu superior en linea" />
     <MESSAGE value="menu dinamico en css" />
-    <option name="LAST_COMMIT_MESSAGE" value="menu dinamico en css" />
+    <MESSAGE value="removing .zip" />
+    <option name="LAST_COMMIT_MESSAGE" value="removing .zip" />
   </component>
   <component name="WindowStateProjectService">
     <state x="739" y="255" key="#HTTP_Proxy" timestamp="1602689318961">
@@ -193,10 +246,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602168863646" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1602689266600">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1602689751875">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602689266600" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602689751875" />
     <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1602621575650">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -205,9 +258,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602004547463" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602003959311">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602693565062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602003959311" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602693565062" />
   </component>
 </project>

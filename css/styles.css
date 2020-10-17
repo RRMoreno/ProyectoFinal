@@ -4,12 +4,28 @@
     font-family: 'Didact Gothic', sans-serif;
 
 }
+
+html {
+    height: 100%;
+}
+
+main {
+    flex-grow: 1;
+    width: 80%;
+    align-self: center;
+}
+
 a {
     text-decoration: none;
     color: #4293ba;
 }
 
-body {;
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
 }
 
 
@@ -31,11 +47,13 @@ nav {
 
 nav ul {
     list-style-type: none;
-
+    padding: 1rem 0;
 }
 
 .navegacion {
     color: #007bff;
+    display: flex;
+    justify-content: center;
 }
 
 .navegacion ul li {
@@ -55,13 +73,11 @@ nav ul {
 
 }
 
-/*no son los colores finales*/
 
 h1 {
     text-align: center;
     font-weight: normal;
     color: #4085f1;
-    font-size: 5vw;
     font-family: 'Dancing Script', cursive;
 
 }
@@ -69,41 +85,82 @@ h1 {
 header {
     background-image: url("../img/sky2.png");
     background-size: contain;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1;
+    border-bottom: 1px solid #e5e5e5;
 }
 
+header div {
+    display: flex;
+    align-items: center;
+}
+
+.right-header {
+    margin-right: 2rem;
+}
 
 footer {
     background-image: url("../img/footer.png ");
     padding-top: 4rem;
     font-family: 'Didact Gothic', sans-serif;
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
 
-
+footer .marca p {
+    margin: 0;
 }
 
 .contenedor {
     text-align: center;
     border-top: double 3px gainsboro;
-    padding-top: 20px;
-
-
+    width: 100%;
 }
 
-.contenedor span a {
+.contenedor ul a {
     text-decoration: none;
+    margin-right: 10px;
+    padding-right: 10px;
+    color: #000;
+    font-weight: 900;
 }
+
+.contenedor ul li {
+    height: auto;
+    padding: 0;
+}
+
 
 .social {
     text-align: center;
     color: #010111;
-    padding-top: 20px;
-    opacity: 0.5;
+    opacity: 1;
+}
 
+.social .fa-facebook-square:hover {
+    color: #4267b2;
+}
+
+.social .fa-instagram:hover {
+    color: #dd5432;
+}
+
+.social .fa-twitter:hover {
+    color: #00a2f3;
 }
 
 .marca {
     text-align: center;
-    opacity: 0.5;
+    opacity: 1;
     color: #090000;
+    font-weight: 700;
 }
 
 .search {
@@ -128,6 +185,8 @@ li {
     display: inline-block;
     position: relative;
     font-size: 1rem;
+    height: 2rem;
+    padding: 1rem;
 }
 
 ul ul {
@@ -137,7 +196,10 @@ ul ul {
 
 ul ul li {
     display: block;
+    height: auto;
+    padding: 0;
 }
+
 ul ul li {
     padding: 0 10px;
     border-bottom: 1px solid #b7d1e0;
@@ -149,4 +211,20 @@ ul li:hover ul {
     width: max-content;
     left: 20px;
     padding: 0;
+}
+
+.imgServicios {
+    float: left;
+
+}
+
+.logoImg {
+    height: 5rem;
+    width: 5rem;
+
+}
+
+/*Galeria*/
+.galeria img {
+    height: 160px;
 }
