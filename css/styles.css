@@ -60,6 +60,19 @@ nav ul {
     justify-content: center;
 }
 
+.navegacion.mobile {
+    display: flex;
+    flex-direction: column;
+}
+
+.navegacion.mobile ul li {
+    display: unset;
+    position: unset;
+    font-size: 1rem;
+    height: auto;
+    padding: 0;
+}
+
 .navegacion ul li {
     display: inline;
 }
