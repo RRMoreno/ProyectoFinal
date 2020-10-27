@@ -5,11 +5,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57c5547d-b614-4796-bcec-930e3b22a387" name="Default Changelist" comment="hacer responsive la pagina principal usando grid">
-      <change afterPath="$PROJECT_DIR$/js/menu.js" afterDir="false" />
+    <list default="true" id="57c5547d-b614-4796-bcec-930e3b22a387" name="Default Changelist" comment="pensando en el menu de mobile">
+      <change afterPath="$PROJECT_DIR$/img/adop1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/adop2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/listos para adoptar.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/contactos.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/contactos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/petshop.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/petshop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/refugio.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/refugio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/reserva.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/reserva.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/servicios.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/servicios.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +77,8 @@
       <workItem from="1602168848115" duration="8165000" />
       <workItem from="1602254870794" duration="40922000" />
       <workItem from="1602705740222" duration="22528000" />
-      <workItem from="1603520352932" duration="12028000" />
+      <workItem from="1603520352932" duration="13380000" />
+      <workItem from="1603802896498" duration="6721000" />
     </task>
     <task id="LOCAL-00001" summary="moved doc">
       <created>1601986345103</created>
@@ -142,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603543192177</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="pensando en el menu de mobile">
+      <created>1603544697047</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1603544697047</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +217,8 @@
     <MESSAGE value="removing .zip" />
     <MESSAGE value="flex" />
     <MESSAGE value="hacer responsive la pagina principal usando grid" />
-    <option name="LAST_COMMIT_MESSAGE" value="hacer responsive la pagina principal usando grid" />
+    <MESSAGE value="pensando en el menu de mobile" />
+    <option name="LAST_COMMIT_MESSAGE" value="pensando en el menu de mobile" />
   </component>
   <component name="WindowStateProjectService">
     <state x="739" y="255" key="#HTTP_Proxy" timestamp="1602689318961">
@@ -253,10 +269,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602168863646" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1603543193836">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1603544699782">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603543193836" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603544699782" />
     <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1602621575650">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

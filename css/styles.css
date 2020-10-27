@@ -32,7 +32,7 @@ a {
 }
 
 nav {
-    color: #007bff;
+    background-image: linear-gradient(#4293ba, rgb(249 252 254 ))
 
 }
 
@@ -52,6 +52,7 @@ nav {
 nav ul {
     list-style-type: none;
     padding: 1rem 0;
+
 }
 
 .navegacion {
@@ -63,6 +64,7 @@ nav ul {
 .navegacion.mobile {
     display: flex;
     flex-direction: column;
+
 }
 
 .navegacion.mobile ul li {
@@ -71,6 +73,7 @@ nav ul {
     font-size: 1rem;
     height: auto;
     padding: 0;
+
 }
 
 .navegacion ul li {
@@ -242,14 +245,17 @@ ul li:hover ul {
 
 .galeria {
     margin-top: 1rem;
-    height: 160px;
     display: flex;
-    overflow: auto;
 }
 
 .galeria img {
     grid-area: area2;
     height: 160px;
+}
+
+.galeria .scalar:hover{
+    transform: scale(2,2);
+    transition: all 1s;
 }
 
 .arrowLeft {
@@ -321,7 +327,10 @@ ul li:hover ul {
         width: 100%;
         margin-top: 1rem;
     }
+
+
 }
 
 @media only screen and (min-width: 1024px) {
 }
+
