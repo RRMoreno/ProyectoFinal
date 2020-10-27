@@ -51,14 +51,17 @@
     <form action="">
         <fieldset>
             <!--Formularios para los datos de la mascota-->
-            <!--poner para agregar otra mascota +-->
+
             <legend>Datos de las Mascotas</legend>
-            <label for="puppyName">Nombre del Cachorro *</label>
-            <input class="formulario" id="puppyName" placeholder="Ingrese el nombre de su mascota" required type="text">
+            <label class="formIcon" for="puppyName"><i class="fa fa-paw fa-lg" aria-hidden="true"></i></label>
+            <input class="formulario" id="puppyName" placeholder="Nombre de su mascota" required type="text">
+            <label class="formIcon"><i class="fa fa-plus-circle fa-lg" aria-hidden="true"></i></label><!--cuando se de click aparecera otro formulario para agregar otra mascota +-->
             <br>
             <br>
 
-            <span>Sexo</span><br>
+            <di>
+                <label>Sexo</label>
+                <label class="formIcon" ><i class="fa fa-venus-mars" aria-hidden="true"></i></label><br></di>
             <input id="female" name="sexo" type="radio" value="F">
             <label for="female">Femenino</label>
             <input id="male" name="sexo" type="radio" value="M">
@@ -66,7 +69,7 @@
             <br>
             <br>
 
-            <label for="age">Edad</label>
+            <label for="age" class="formIcon"><i class="fa fa-clock-o fa-lg" aria-hidden="true"></i></label>
             <select class="formulario" id="age">
                 <option value="">Años</option>
                 <option value="">1</option>
@@ -98,17 +101,17 @@
             <br>
             <br>
 
-            <label for="dateIn">Fecha de Ingreso *</label>
+            <label for="dateIn" class="formIcon"><i class="fa fa-calendar-check-o fa-lg" aria-hidden="true"></i></label>
             <input class="formulario" id="dateIn" required type="date">
             <br>
             <br>
 
-            <label for="dateOut">Fecha de Salida *</label>
+            <label for="dateOut" class="formIcon"><i class="fa fa-calendar-times-o fa-lg" aria-hidden="true"></i></label>
             <input class="formulario" id="dateOut" required type="date">
             <br>
             <br>
 
-            <label for="comments1">Comentarios</label><br>
+            <label for="comments1" class="formIcon"><i class="fa fa-pencil-square-o fa-lg" aria-hidden="true"></i></label><br>
             <textarea class="formulario" cols="30" id="comments1" name=" " placeholder="Escriba sus comentarios aqui"
                       rows="10"></textarea>
         </fieldset>
@@ -117,22 +120,22 @@
         <fieldset>
             <!--Formulario para los datos de los Dueños-->
             <legend>Datos de los Dueños</legend>
-            <label for="name1">Nombre y Apellido *</label>
+            <label for="name1" class="formIcon"><i class="fa fa-user fa-lg" aria-hidden="true"></i></label>
             <input class="formulario" id="name1" placeholder="Ingrese su nombre y apellido" required type="text">
             <br>
             <br>
 
-            <label for="mail">Correo *</label>
+            <label for="mail" class="formIcon"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></label>
             <input class="formulario" id="mail" required type="email">
             <br>
             <br>
 
-            <label for="phone">Telefono *</label>
+            <label for="phone" class="formIcon"><i class="fa fa-phone-square fa-lg" aria-hidden="true"></i></label>
             <input class="formulario" id="phone" required type="tel"> <!--solo puede admitir numeros-->
             <br>
             <br>
 
-            <label for="comments2">Comentarios</label><br>
+            <label for="comments1" class="formIcon"><i class="fa fa-pencil-square-o fa-lg" aria-hidden="true"></i></label><br>
             <textarea class="formulario" cols="30" id="comments2" name=" " placeholder="Escriba sus comentarios aqui"
                       rows="10"></textarea>
             <br>
@@ -156,9 +159,9 @@
         </ul>
     </div>
     <div class="social">
-        <i aria-hidden="true" class="fa fa-facebook-square"></i>
-        <i aria-hidden="true" class="fa fa-instagram"></i>
-        <i aria-hidden="true" class="fa fa-twitter"></i>
+        <i aria-hidden="true" class="fa fa-facebook-square fa-lg"></i>
+        <i aria-hidden="true" class="fa fa-instagram fa-lg"></i>
+        <i aria-hidden="true" class="fa fa-twitter fa-lg"></i>
     </div>
     <div class="marca">
         <p>(C) La Villa Canina | Todos los derechos reservados</p>

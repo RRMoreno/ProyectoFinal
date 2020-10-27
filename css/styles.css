@@ -32,7 +32,7 @@ a {
 }
 
 nav {
-    background-image: linear-gradient(#4293ba, rgb(249 252 254 ))
+    background-image: linear-gradient(#4293ba, rgb(249 252 254))
 
 }
 
@@ -162,6 +162,7 @@ footer .marca p {
     text-align: center;
     color: #010111;
     opacity: 1;
+
 }
 
 .social .fa-facebook-square:hover {
@@ -193,6 +194,7 @@ footer .marca p {
 
 .bottom {
     border-radius: unset;
+    background-image: linear-gradient(#4293ba, rgb(249 252 254))
     /*float: right;*/
 }
 
@@ -246,6 +248,7 @@ ul li:hover ul {
 .galeria {
     margin-top: 1rem;
     display: flex;
+    overflow: auto;
 }
 
 .galeria img {
@@ -253,8 +256,8 @@ ul li:hover ul {
     height: 160px;
 }
 
-.galeria .scalar:hover{
-    transform: scale(2,2);
+.galeria .scalar:hover {
+    transform: scale(2, 2);
     transition: all 1s;
 }
 
@@ -332,5 +335,20 @@ ul li:hover ul {
 }
 
 @media only screen and (min-width: 1024px) {
+    .gridContainer {
+        align-items: center;
+        overflow: unset;
+        grid-template-rows: 320px auto;
+    }
+
+    .galeria {
+        overflow: hidden;
+        height: 320px;
+        align-items: center;
+    }
 }
 
+/*Formulario*/
+.formIcon{
+    color: #4293ba;
+}
