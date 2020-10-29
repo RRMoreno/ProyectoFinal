@@ -59,6 +59,7 @@ nav ul {
     color: #007bff;
     display: none;
     justify-content: center;
+    ;
 }
 
 .navegacion.mobile {
@@ -90,6 +91,7 @@ nav ul {
     margin-right: 10px;
     font-family: 'Didact Gothic', sans-serif;
     font-weight: bold;
+    font-size: larger;
 
 }
 
@@ -105,7 +107,7 @@ h1 {
 header {
     background-image: url("../img/sky2.png");
     background-size: contain;
-    display: flex;
+    display: flex!important;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -120,6 +122,7 @@ header div {
 
 .right-header {
     margin-right: 2rem;
+   display: flex;
 }
 
 footer {
@@ -127,7 +130,7 @@ footer {
     padding-top: 4rem;
     font-family: 'Didact Gothic', sans-serif;
     width: 100%;
-    height: 7rem;
+    height: auto;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -188,12 +191,9 @@ footer .marca p {
     border-radius: 10px;
 }
 
-.formulario {
-    border-radius: 5px;
-}
 
 .bottom {
-    border-radius: unset;
+    border-radius: 5px;
     background-image: linear-gradient(#4293ba, rgb(249 252 254))
     /*float: right;*/
 }
@@ -349,6 +349,10 @@ ul li:hover ul {
 }
 
 /*Formulario*/
-.formIcon{
-    color: #4293ba;
+label i{
+    margin-right: 10px;
+    color: #4293ba;;
+}
+form{
+    margin-top: 30px;
 }

@@ -7,6 +7,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
     <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+            integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+            crossorigin="anonymous"></script>
     <link href="../css/styles.css" rel="stylesheet">
     <title>La Villa Canina</title>
 </head>
@@ -49,103 +59,111 @@
 <main class="centrar">
     <h2>Reservaciones </h2>
     <form action="">
-        <fieldset>
-            <!--Formularios para los datos de la mascota-->
+        <div></div>
+        <div class="form-row">
+            <div class="col-md-6 col-xs-12">
+                <!--Formularios para los datos de la mascota-->
+                <legend>Datos de las Mascotas</legend>
+                <div class="form-group">
+                    <label  for="puppyName"><i class="fa fa-paw fa-lg" aria-hidden="true"></i>Nombre de
+                        su mascota</label>
+                    <input class="form-control" id="puppyName" placeholder="Nombre de su mascota" required type="text">
+                </div>
 
-            <legend>Datos de las Mascotas</legend>
-            <label class="formIcon" for="puppyName"><i class="fa fa-paw fa-lg" aria-hidden="true"></i></label>
-            <input class="formulario" id="puppyName" placeholder="Nombre de su mascota" required type="text">
-            <label class="formIcon"><i class="fa fa-plus-circle fa-lg" aria-hidden="true"></i></label><!--cuando se de click aparecera otro formulario para agregar otra mascota +-->
-            <br>
-            <br>
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label class="col-form-label"><i class="fa fa-venus-mars" aria-hidden="true"></i>Sexo</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1"
+                                   value="option1">
+                            <label class="form-check-label" for="gridRadios1">Femenino</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
+                                   value="option2">
+                            <label class="form-check-label" for="gridRadios2">Masculino</label>
+                        </div>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label class="mr-sm-2" for="age"><i class="fa fa-clock-o fa-lg"
+                                                            aria-hidden="true"></i>Edad</label>
+                        <select class="custom-select mr-sm-2" id="age">
+                            <option value="">Años</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                            <option value="">6</option>
+                            <option value="">7</option>
+                            <option value="">8</option>
+                            <option value="">9</option>
+                            <option value="">10</option>
+                            <option value="">11</option>
+                            <option value="">12</option>
+                            <option value="">13</option>
+                            <option value="">14</option>
+                            <option value="">15</option>
+                            <option value="">16</option>
+                            <option value="">17</option>
+                            <option value="">18</option>
+                            <option value="">19</option>
+                            <option value="">20</option>
+                        </select>
+                    </div>
+                </div>
 
-            <di>
-                <label>Sexo</label>
-                <label class="formIcon" ><i class="fa fa-venus-mars" aria-hidden="true"></i></label><br></di>
-            <input id="female" name="sexo" type="radio" value="F">
-            <label for="female">Femenino</label>
-            <input id="male" name="sexo" type="radio" value="M">
-            <label for="male">Masculino</label>
-            <br>
-            <br>
+                <div class="form-group">
+                    <label for="breed">Raza</label>
+                    <input type="text" class="form-control" id="breed" placeholder="Raza de su mascota">
+                </div>
 
-            <label for="age" class="formIcon"><i class="fa fa-clock-o fa-lg" aria-hidden="true"></i></label>
-            <select class="formulario" id="age">
-                <option value="">Años</option>
-                <option value="">1</option>
-                <option value="">2</option>
-                <option value="">3</option>
-                <option value="">4</option>
-                <option value="">5</option>
-                <option value="">6</option>
-                <option value="">7</option>
-                <option value="">8</option>
-                <option value="">9</option>
-                <option value="">10</option>
-                <option value="">11</option>
-                <option value="">12</option>
-                <option value="">13</option>
-                <option value="">14</option>
-                <option value="">15</option>
-                <option value="">16</option>
-                <option value="">17</option>
-                <option value="">18</option>
-                <option value="">19</option>
-                <option value="">20</option>
-            </select>
-            <br>
-            <br>
+                <div class="row">
+                    <div class="form-group col">
+                        <label for="dateIn" ><i class="fa fa-calendar-check-o fa-lg"
+                                                                aria-hidden="true"></i>Fecha de Entrada</label>
+                        <input type="date" class="form-control" id="dateIn" required>
+                    </div>
+                    <div class="form-group col">
+                        <label for="dateOut"><i class="fa fa-calendar-times-o fa-lg"
+                                                                 aria-hidden="true"></i>Fecha de Salida</label>
+                        <input type="date" class="form-control" id="dateOut" required>
+                    </div>
+                </div>
 
-            <label for="breed">Raza</label>
-            <input class="formulario" id="breed" placeholder="Raza de su mascota" type="text">
-            <br>
-            <br>
-
-            <label for="dateIn" class="formIcon"><i class="fa fa-calendar-check-o fa-lg" aria-hidden="true"></i></label>
-            <input class="formulario" id="dateIn" required type="date">
-            <br>
-            <br>
-
-            <label for="dateOut" class="formIcon"><i class="fa fa-calendar-times-o fa-lg" aria-hidden="true"></i></label>
-            <input class="formulario" id="dateOut" required type="date">
-            <br>
-            <br>
-
-            <label for="comments1" class="formIcon"><i class="fa fa-pencil-square-o fa-lg" aria-hidden="true"></i></label><br>
-            <textarea class="formulario" cols="30" id="comments1" name=" " placeholder="Escriba sus comentarios aqui"
-                      rows="10"></textarea>
-        </fieldset>
-        <br>
-
-        <fieldset>
-            <!--Formulario para los datos de los Dueños-->
-            <legend>Datos de los Dueños</legend>
-            <label for="name1" class="formIcon"><i class="fa fa-user fa-lg" aria-hidden="true"></i></label>
-            <input class="formulario" id="name1" placeholder="Ingrese su nombre y apellido" required type="text">
-            <br>
-            <br>
-
-            <label for="mail" class="formIcon"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></label>
-            <input class="formulario" id="mail" required type="email">
-            <br>
-            <br>
-
-            <label for="phone" class="formIcon"><i class="fa fa-phone-square fa-lg" aria-hidden="true"></i></label>
-            <input class="formulario" id="phone" required type="tel"> <!--solo puede admitir numeros-->
-            <br>
-            <br>
-
-            <label for="comments1" class="formIcon"><i class="fa fa-pencil-square-o fa-lg" aria-hidden="true"></i></label><br>
-            <textarea class="formulario" cols="30" id="comments2" name=" " placeholder="Escriba sus comentarios aqui"
-                      rows="10"></textarea>
-            <br>
-            <br>
-        </fieldset>
-        <br>
-        <!--BOTONES-->
-        <input type="submit" class="bottom">
-        <input type="reset" class="bottom">
-        </select>
+            </div>
+            <div class="col-md-6 col-xs-12">
+                <legend>Datos de los Dueños</legend>
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label  for="name1"><i class="fa fa-user fa-lg" aria-hidden="true"></i>Nombre(s)</label>
+                        <input type="text" class="form-control" id="name1" placeholder="Nombre">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label  for="apellido"><i class="fa fa-user fa-lg" aria-hidden="true"></i>Apellidos</label>
+                        <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="mail" ><i class="fa fa-envelope fa-lg" aria-hidden="true"></i>Correo</label>
+                    <input type="email" class="form-control" id="mail" placeholder="ejemplo@correo.uy">
+                </div>
+                <div class="form-group">
+                    <label for="phone" ><i class="fa fa-phone-square fa-lg"
+                                                           aria-hidden="true"></i>Teléfono</label>
+                    <input type="tel" class="form-control" id="phone" placeholder="099 999999">
+                    <!--solo puede admitir numeros-->
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="comments1" ><i class="fa fa-pencil-square-o fa-lg"
+                                                       aria-hidden="true"></i>Comentarios</label>
+            <textarea type="number" class="form-control" id="comments1"
+                      placeholder="Escriba sus comentarios aqui"></textarea>
+        </div>
+        <input type="submit" class="btn btn-outline-primary">
+        <input type="reset" class="btn btn-outline-primary">
     </form>
 </main>
 <footer>
