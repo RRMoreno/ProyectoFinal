@@ -6,22 +6,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57c5547d-b614-4796-bcec-930e3b22a387" name="Default Changelist" comment="pensando en el menu de mobile">
-      <change afterPath="$PROJECT_DIR$/img/PhotoComingSoon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/comingsoon.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/guarderia.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/movilidad.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/spa.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/vet.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/zonajuegos.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/desafio9 aplicando bootstrap.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/petshop4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Proyecto final.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Proyecto final.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/petshop.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/petshop.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/chimuelo3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/chimuelo3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/chimuelo8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/chimuelo8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/chimuelo9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/chimuelo9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/petshop1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/petshop1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/petshop2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/petshop2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/spa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/spa.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/contactos.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/contactos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/guarderia.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/guarderia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/movilidad.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/movilidad.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/petshop.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/petshop.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/refugio.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/refugio.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/reserva.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/reserva.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/servicios.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/servicios.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/spa.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/spa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/vet.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/vet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/zonajuegos.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/zonajuegos.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603987302727</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="agregando bootstrap">
+      <created>1604426780086</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1604426780086</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,10 +304,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602168863646" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1603987313697">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1604426782531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603987313697" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604426782531" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603984527242">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -24,6 +24,9 @@ main {
 a {
     text-decoration: none;
     color: #4293ba;
+    font-size: 1rem;
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: bold;
 }
 
 .parrafo {
@@ -54,12 +57,13 @@ nav ul {
     padding: 1rem 0;
 
 }
+nav ul li div{
+    background-image: linear-gradient(rgb(222 237 244 ), rgb(249 252 254), transparent);
+}
 
 .navegacion {
-    color: #007bff;
-    display: none;
     justify-content: center;
-    ;
+
 }
 
 .navegacion.mobile {
@@ -198,12 +202,12 @@ footer .marca p {
     /*float: right;*/
 }
 
-ul {
+footer ul {
     list-style: none;
     font-size: 0 /* truco por el uso de inline-block*/
 }
 
-li {
+footer li {
     display: inline-block;
     position: relative;
     font-size: 1rem;
@@ -237,6 +241,8 @@ ul li:hover ul {
 
 .imgServicios {
     float: left;
+    width: 6rem;
+    padding-right: 2rem;
 
 }
 
@@ -319,7 +325,7 @@ ul li:hover ul {
     .gridContainer {
         display: grid;
         height: 100%;
-        grid-template-columns: 3rem auto 3rem;
+        grid-template-columns: 1rem auto 1rem;
         grid-template-rows: 160px auto;
         grid-template-areas: "area1 area2 area3"
                          "area4 area4 area4";
@@ -345,6 +351,9 @@ ul li:hover ul {
         overflow: hidden;
         height: 320px;
         align-items: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+
     }
 }
 
@@ -360,6 +369,11 @@ form{
 .comingSoon{
     display: flex;
     justify-content: center;
+}
+
+.galeriaFlex{
+    display: flex;
+    justify-content: space-between;
 
 
 
