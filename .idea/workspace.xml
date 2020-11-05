@@ -6,17 +6,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57c5547d-b614-4796-bcec-930e3b22a387" name="Default Changelist" comment="pensando en el menu de mobile">
-      <change afterPath="$PROJECT_DIR$/desafio9 aplicando bootstrap.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/petshop4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Proyecto final.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Proyecto final.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logofinal2.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/chimuelo3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/chimuelo3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/chimuelo8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/chimuelo8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/chimuelo9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/chimuelo9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/petshop1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/petshop1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/petshop2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/petshop2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/spa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/spa.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desafio9 aplicando bootstrap.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logofina2.JPG" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/contactos.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/contactos.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/guarderia.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/guarderia.html" afterDir="false" />
@@ -59,7 +53,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/css/bootstrap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../portfolio" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -190,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604426780086</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="continuamos agregando bootstrap a tablas, nav y paginas nuevas">
+      <created>1604509346088</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1604509346088</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +254,8 @@
     <MESSAGE value="pensando en el menu de mobile" />
     <MESSAGE value="agrande iconos del footer y cambie los formularios" />
     <MESSAGE value="agregando bootstrap" />
-    <option name="LAST_COMMIT_MESSAGE" value="agregando bootstrap" />
+    <MESSAGE value="continuamos agregando bootstrap a tablas, nav y paginas nuevas" />
+    <option name="LAST_COMMIT_MESSAGE" value="continuamos agregando bootstrap a tablas, nav y paginas nuevas" />
   </component>
   <component name="WindowStateProjectService">
     <state x="739" y="255" key="#HTTP_Proxy" timestamp="1602689318961">
@@ -280,10 +282,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="629" y="298" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602893386410" />
-    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1602105892453">
+    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1604592933089">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602105892453" />
+    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604592933089" />
     <state x="784" y="439" key="Github.CreateGistDialog" timestamp="1602168900978">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -304,10 +306,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602168863646" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1604426782531">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1604509360547">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604426782531" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604509360547" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603984527242">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

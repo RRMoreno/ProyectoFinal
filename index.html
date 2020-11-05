@@ -14,6 +14,7 @@
     <script src="js/menu.js"></script>
     <link href="css/styles.css" rel="stylesheet">
     <title>La Villa Canina</title>
+    <link rel="icon" type="image/x-icon" href="img/logofina2.png"/>
 </head>
 <body>
 <header>
@@ -31,44 +32,50 @@
     </div>
 </header>
 
-<nav class="navbar navbar-expand-sm navegacion">
-    <!-- Links -->
-    <ul class="navbar-nav">
+<nav class="navbar navbar-expand-sm ">
+    <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold btn btn-info text-white rounded"
+            type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+            aria-expanded="false" aria-label="Toggle navigation"> Menu
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </button>
+    <div class="collapse navbar-collapse navegacion" id="navbarResponsive">
+        <ul class="navbar-nav">
 
-        <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-        </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
 
-        <!-- Dropdown -->
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle"  id="navbardrop" data-toggle="dropdown">
-                Servicios
-            </a>
-            <div class="dropdown-menu">
-                <a class="dropdown-item" href="views/servicios.html">Servicios</a>
-                <a class="dropdown-item" href="views/guarderia.html">Guarderia</a>
-                <a class="dropdown-item" href="views/spa.html">SPA</a>
-                <a class="dropdown-item" href="views/zonajuegos.html">Zona de Juegos</a>
-                <a class="dropdown-item" href="views/vet.html">Unidad Veterinaria</a>
-                <a class="dropdown-item" href="views/petshop.html">PetShop</a>
-                <a class="dropdown-item" href="views/movilidad.html">Movilidad</a>
-            </div>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="views/reserva.html">Reservaciones</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="views/contactos.html">Contactos</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="views/refugio.html">Refugio</a>
-        </li>
-    </ul>
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
+                    Servicios
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="views/servicios.html">Servicios</a>
+                    <a class="dropdown-item" href="views/guarderia.html">Guarderia</a>
+                    <a class="dropdown-item" href="views/spa.html">SPA</a>
+                    <a class="dropdown-item" href="views/zonajuegos.html">Zona de Juegos</a>
+                    <a class="dropdown-item" href="views/vet.html">Unidad Veterinaria</a>
+                    <a class="dropdown-item" href="views/petshop.html">PetShop</a>
+                    <a class="dropdown-item" href="views/movilidad.html">Movilidad</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="views/reserva.html">Reservaciones</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="views/contactos.html">Contactos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="views/refugio.html">Refugio</a>
+            </li>
+        </ul>
+    </div>
 </nav>
-
+<!--puede cambiar :( -->
 <main class="centrar">
     <div class="gridContainer">
-
+        <!--mejorara con js-->
         <div class="arrowLeft">
             <i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
         </div>

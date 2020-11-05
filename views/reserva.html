@@ -14,6 +14,7 @@
     <script src="js/menu.js"></script>
     <link href="../css/styles.css" rel="stylesheet">
     <title>La Villa Canina</title>
+    <link rel="icon" type="image/x-icon" href="../img/logofina2.png"/>
 </head>
 <body>
 <header>
@@ -30,39 +31,45 @@
         <i aria-hidden="true" class="fa fa-search"></i>
     </div>
 </header>
-<nav class="navbar navbar-expand-sm navegacion">
-    <!-- Links -->
-    <ul class="navbar-nav">
+<nav class="navbar navbar-expand-sm ">
+    <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold btn btn-info text-white rounded"
+            type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+            aria-expanded="false" aria-label="Toggle navigation"> Menu
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </button>
+    <div class="collapse navbar-collapse navegacion" id="navbarResponsive">
+        <ul class="navbar-nav">
 
-        <li class="nav-item">
-            <a class="nav-link" href="../index.html">Home</a>
-        </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home</a>
+            </li>
 
-        <!-- Dropdown -->
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle"  id="navbardrop" data-toggle="dropdown">
-                Servicios
-            </a>
-            <div class="dropdown-menu">
-                <a class="dropdown-item" href="servicios.html">Servicios</a>
-                <a class="dropdown-item" href="guarderia.html">Guarderia</a>
-                <a class="dropdown-item" href="spa.html">SPA</a>
-                <a class="dropdown-item" href="zonajuegos.html">Zona de Juegos</a>
-                <a class="dropdown-item" href="vet.html">Unidad Veterinaria</a>
-                <a class="dropdown-item" href="petshop.html">PetShop</a>
-                <a class="dropdown-item" href="movilidad.html">Movilidad</a>
-            </div>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="reserva.html">Reservaciones</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="contactos.html">Contactos</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="refugio.html">Refugio</a>
-        </li>
-    </ul>
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
+                    Servicios
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="servicios.html">Servicios</a>
+                    <a class="dropdown-item" href="guarderia.html">Guarderia</a>
+                    <a class="dropdown-item" href="spa.html">SPA</a>
+                    <a class="dropdown-item" href="zonajuegos.html">Zona de Juegos</a>
+                    <a class="dropdown-item" href="vet.html">Unidad Veterinaria</a>
+                    <a class="dropdown-item" href="petshop.html">PetShop</a>
+                    <a class="dropdown-item" href="movilidad.html">Movilidad</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="reserva.html">Reservaciones</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contactos.html">Contactos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="refugio.html">Refugio</a>
+            </li>
+        </ul>
+    </div>
 </nav>
 <main class="centrar">
     <h2>Reservaciones </h2>
@@ -73,7 +80,7 @@
                 <!--Formularios para los datos de la mascota-->
                 <legend>Datos de las Mascotas</legend>
                 <div class="form-group">
-                    <label  for="puppyName"><i class="fa fa-paw fa-lg" aria-hidden="true"></i>Nombre de
+                    <label for="puppyName"><i class="fa fa-paw fa-lg" aria-hidden="true"></i>Nombre de
                         su mascota</label>
                     <input class="form-control" id="puppyName" placeholder="Nombre de su mascota" required type="text">
                 </div>
@@ -128,13 +135,13 @@
 
                 <div class="row">
                     <div class="form-group col">
-                        <label for="dateIn" ><i class="fa fa-calendar-check-o fa-lg"
-                                                                aria-hidden="true"></i>Fecha de Entrada</label>
+                        <label for="dateIn"><i class="fa fa-calendar-check-o fa-lg"
+                                               aria-hidden="true"></i>Fecha de Entrada</label>
                         <input type="date" class="form-control" id="dateIn" required>
                     </div>
                     <div class="form-group col">
                         <label for="dateOut"><i class="fa fa-calendar-times-o fa-lg"
-                                                                 aria-hidden="true"></i>Fecha de Salida</label>
+                                                aria-hidden="true"></i>Fecha de Salida</label>
                         <input type="date" class="form-control" id="dateOut" required>
                     </div>
                 </div>
@@ -144,29 +151,29 @@
                 <legend>Datos de los Dueños</legend>
                 <div class="row">
                     <div class="form-group col-md-6">
-                        <label  for="name1"><i class="fa fa-user fa-lg" aria-hidden="true"></i>Nombre(s)</label>
+                        <label for="name1"><i class="fa fa-user fa-lg" aria-hidden="true"></i>Nombre(s)</label>
                         <input type="text" class="form-control" id="name1" placeholder="Nombre">
                     </div>
                     <div class="form-group col-md-6">
-                        <label  for="apellido"><i class="fa fa-user fa-lg" aria-hidden="true"></i>Apellidos</label>
+                        <label for="apellido"><i class="fa fa-user fa-lg" aria-hidden="true"></i>Apellidos</label>
                         <input type="text" class="form-control" id="apellido" placeholder="Apellido">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="mail" ><i class="fa fa-envelope fa-lg" aria-hidden="true"></i>Correo</label>
+                    <label for="mail"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i>Correo</label>
                     <input type="email" class="form-control" id="mail" placeholder="ejemplo@correo.uy">
                 </div>
                 <div class="form-group">
-                    <label for="phone" ><i class="fa fa-phone-square fa-lg"
-                                                           aria-hidden="true"></i>Teléfono</label>
+                    <label for="phone"><i class="fa fa-phone-square fa-lg"
+                                          aria-hidden="true"></i>Teléfono</label>
                     <input type="tel" class="form-control" id="phone" placeholder="099 999999">
                     <!--solo puede admitir numeros-->
                 </div>
             </div>
         </div>
         <div class="form-group">
-            <label for="comments1" ><i class="fa fa-pencil-square-o fa-lg"
-                                                       aria-hidden="true"></i>Comentarios</label>
+            <label for="comments1"><i class="fa fa-pencil-square-o fa-lg"
+                                      aria-hidden="true"></i>Comentarios</label>
             <textarea type="number" class="form-control" id="comments1"
                       placeholder="Escriba sus comentarios aqui"></textarea>
         </div>
