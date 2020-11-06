@@ -11,7 +11,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="js/menu.js"></script>
+
     <link href="../css/styles.css" rel="stylesheet">
     <title>La Villa Canina</title>
     <link rel="icon" type="image/x-icon" href="../img/logofina2.png" />
@@ -88,7 +88,7 @@
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="name1"><i class="fa fa-user fa-lg" aria-hidden="true"></i>Nombre</label>
-                <input type="text" class="form-control" id="name1" placeholder="Nombre">
+                <input type="text" class="form-control" id="name1"  required placeholder="Nombre">
             </div>
             <div class="form-group col-md-6">
                 <label  for="apellido"><i class="fa fa-user fa-lg" aria-hidden="true"></i>Apellido</label>
@@ -97,7 +97,7 @@
             </div>
             <div class="form-group">
                 <label for="mail" ><i class="fa fa-envelope fa-lg" aria-hidden="true"></i>Correo</label>
-                <input type="text" class="form-control" id="mail" placeholder="exemplo@correo.uy">
+                <input type="text" class="form-control" id="mail" required placeholder="exemplo@correo.uy">
             </div>
             <div class="form-group">
                 <label for="phone" ><i class="fa fa-phone-square fa-lg" aria-hidden="true"></i>Teléfono</label>
@@ -108,7 +108,30 @@
                 <textarea type="number" class="form-control" id="comments2" placeholder="Escriba sus comentarios aqui"></textarea>
             </div>
         </div>
-        <input type="submit" class="btn btn-outline-primary">
+        <button type="submit" class="btn btn-outline-primary" data-toggle="modal" data-target="#enviarModal">
+            Enviar
+        </button>
+
+        <!-- ventana que aparece hasta que los campos requeridos estan llenos correctamente,--- esto puede cambiar-->
+        <div class="modal fade" id="enviarModal" tabindex="-1" role="dialog"  aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" >ERROR</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Por favor verifque que los campos requeridos esten llenos
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </form>
 </main>
 <footer>

@@ -300,6 +300,20 @@ ul li:hover ul {
     grid-template-areas: "area2" "area4";
 }
 
+.carouselSize {
+
+    justify-content: space-around;
+
+}
+
+.carouselImg{
+    width: 100%;
+}
+.carousel-inner{
+    width:100%;
+
+}
+
 @media only screen and (max-width: 573px){
     h1{
         display: none;
@@ -363,7 +377,6 @@ ul li:hover ul {
     }
 }
 
-/*Formulario*/
 label i{
     margin-right: 10px;
     color: #4293ba;;
