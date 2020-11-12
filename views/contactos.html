@@ -12,16 +12,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <link href="../css/styles.css" rel="stylesheet">
+    <link href="../css/estilos.css" rel="stylesheet">
     <title>La Villa Canina</title>
-    <link rel="icon" type="image/x-icon" href="../img/logofina2.png" />
+    <link rel="icon" type="image/x-icon" href="../img/logofina2.png"/>
 </head>
 <body class="no-gutters">
 <header>
     <div class="left-header">
         <div>
             <a href="../index.html">
-                <img class="logoImg" src="../img/logofina2.png" alt="">
+                <img class="img-log" src="../img/logofina2.png" alt="">
             </a>
         </div>
         <h1 class="titulo1">La Villa Canina</h1>
@@ -46,7 +46,7 @@
 
             <!-- Dropdown -->
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle"  id="navbardrop" data-toggle="dropdown">
+                <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
                     Servicios
                 </a>
                 <div class="dropdown-menu">
@@ -72,67 +72,78 @@
     </div>
 
 </nav>
-<main class="centrar">
-    <h2>Datos de Contactos</h2>
-    <p><strong>Adopcion:</strong> lavillacanina@adopciones.com</p>
-    <p><strong>Reservas:</strong> lavillacanina@reservas.com</p>
-    <p><strong>Socios:</strong> lavillacanina@socios.com</p>
-    <p><strong>Padrinos:</strong> lavillacanina@padrinos.com</p>
-
-
-    <p>Puedes contactarnos mediante los mails o llenar el formulario con las dudas que tengan, seran atendidos a la
-        brevedad </p>
-
-            <!--Formulario-->
-    <form>
-        <div class="form-row">
-            <div class="form-group col-md-6">
-                <label for="name1"><i class="fa fa-user fa-lg" aria-hidden="true"></i>Nombre</label>
-                <input type="text" class="form-control" id="name1"  required placeholder="Nombre">
-            </div>
-            <div class="form-group col-md-6">
-                <label  for="apellido"><i class="fa fa-user fa-lg" aria-hidden="true"></i>Apellido</label>
-                <input type="text" class="form-control" id="apellido" placeholder="Apellido">
-            </div>
+<main class="container">
+    <div class="titulo2 text-center">
+        <h2>Datos de Contactos</h2>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="row">
+                <div class="form-group col-md-6">
+                    <label for="name1"><i class="fa fa-user fa-lg" aria-hidden="true"></i>Nombre(s)</label>
+                    <input type="text" class="form-control" id="name1" required placeholder="Nombre">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="apellido"><i class="fa fa-user fa-lg" aria-hidden="true"></i>Apellidos</label>
+                    <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+                </div>
             </div>
             <div class="form-group">
-                <label for="mail" ><i class="fa fa-envelope fa-lg" aria-hidden="true"></i>Correo</label>
-                <input type="text" class="form-control" id="mail" required placeholder="exemplo@correo.uy">
+                <label for="mail"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i>Correo</label>
+                <input type="email" class="form-control" id="mail" required placeholder="ejemplo@correo.uy">
             </div>
             <div class="form-group">
-                <label for="phone" ><i class="fa fa-phone-square fa-lg" aria-hidden="true"></i>Teléfono</label>
-                <input type="number" class="form-control" id="phone" placeholder="099 999999"><!--solo puede admitir numeros-->
+                <label for="phone"><i class="fa fa-phone-square fa-lg"
+                                      aria-hidden="true"></i>Teléfono</label>
+                <input type="tel" class="form-control" id="phone" required placeholder="099 999999">
+                <!--solo puede admitir numeros-->
             </div>
-            <div class="form-group">
-                <label for="comments2" ><i class="fa fa-pencil-square-o fa-lg" aria-hidden="true"></i>Comentarios</label>
-                <textarea type="number" class="form-control" id="comments2" placeholder="Escriba sus comentarios aqui"></textarea>
+            <div>
+                <label for="comments2"><i class="fa fa-pencil-square-o fa-lg" aria-hidden="true"></i>Comentarios</label>
+                <textarea type="number" class="form-control comments" id="comments2"
+                          placeholder="Escriba sus comentarios aqui"></textarea>
             </div>
-        </div>
-        <button type="submit" class="btn btn-outline-primary" data-toggle="modal" data-target="#enviarModal">
-            Enviar
-        </button>
+            <button type="submit" class="btn btn-outline-primary" data-toggle="modal" data-target="#enviarModal">
+                Enviar
+            </button>
 
-        <!-- ventana que aparece hasta que los campos requeridos estan llenos correctamente,--- esto puede cambiar-->
-        <div class="modal fade" id="enviarModal" tabindex="-1" role="dialog"  aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" >ERROR</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        Por favor verifque que los campos requeridos esten llenos
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+            <!-- ventana que aparece hasta que los campos requeridos estan llenos correctamente,--- esto puede cambiar-->
+            <div class="modal fade" id="enviarModal" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">ERROR</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            Por favor verifque que los campos requeridos esten llenos
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
 
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </form>
+
+        <div class="col-md-6">
+            <h4 class="mb-3">Contactenos</h4>
+
+            <p><strong>Adopcion:</strong> lavillacanina@adopciones.com</p>
+            <p><strong>Reservas:</strong> lavillacanina@reservas.com</p>
+            <p><strong>Socios:</strong> lavillacanina@socios.com</p>
+            <p><strong>Padrinos:</strong> lavillacanina@padrinos.com</p>
+
+            <p>Puedes contactarnos mediante los mails o llenar el formulario con las dudas que tengan, seran atendidos a la
+                brevedad </p>
+        </div>
+    </div>
+
+
+
 </main>
 <footer>
     <div class="contenedor">

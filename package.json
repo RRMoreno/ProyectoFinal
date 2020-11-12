@@ -1,0 +1,26 @@
+{
+  "name": "villacanina",
+  "version": "1.0.0",
+  "description": "Hotel para perros",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build-css": "node-sass --include-path scss scss/estilos.scss css/estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RRMoreno/ProyectoFinal.git"
+  },
+  "author": "Roxana Maria Rafols Moreno <roxanarafols94@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RRMoreno/ProyectoFinal/issues"
+  },
+  "homepage": "https://github.com/RRMoreno/ProyectoFinal#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.6"
+  }
+}
