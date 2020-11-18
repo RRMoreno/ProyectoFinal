@@ -2,6 +2,7 @@
 $primaryColor: #4293ba;
 $primaryTextColor: #111111;
 $gradientSecondaryColor: #f9fcfe;
+$titlecolor: #4085f1;
 
 
 /*variables lo que es mas repetitivo: colores, fontfamily....*/
@@ -110,7 +111,7 @@ nav {
 h1 {
   text-align: center;
   font-weight: normal;
-  color: #4085f1;
+  color: $titlecolor;
   font-family: 'Dancing Script', cursive;
   padding-left: 20px;
 }
@@ -254,11 +255,27 @@ ul {
     }
   }
 }
-
+.row-servicios {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-bottom: 1rem;
+}
 .img-servicios {
-  float: left;
-  width: 6rem;
-  padding-right: 2rem;
+   width: 192px;
+  height: 187px;
+
+
+}
+p{
+  .pservicios{
+    text-align: justify-all;
+    margin-left: 1rem;
+
+  }
+
+
 }
 
 .img-log {
@@ -339,6 +356,9 @@ ul {
   background-size: cover;
 }
 
+.row-form{
+  margin-top: 1rem;
+}
 
 .titulo2 {
   padding-top: 3rem;
@@ -381,6 +401,7 @@ form {
   justify-content: space-between;
 }
 
+
 @media only screen and (max-width: 573px) {
   h1 {
     display: none;
@@ -388,6 +409,9 @@ form {
   .titulo2 {
     padding-top: 1rem;
     padding-bottom: 1rem;
+  }
+  .pservicios{
+    display: none;
   }
 
 }
@@ -421,6 +445,7 @@ form {
     width: 100%;
     margin-top: 1rem;
   }
+
 
 
 }

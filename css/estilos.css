@@ -171,10 +171,20 @@ ul li:hover ul {
   left: 20px;
   padding: 0; }
 
+.row-servicios {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-bottom: 1rem; }
+
 .img-servicios {
-  float: left;
-  width: 6rem;
-  padding-right: 2rem; }
+  width: 192px;
+  height: 187px; }
+
+p .pservicios {
+  text-align: justify-all;
+  margin-left: 1rem; }
 
 .img-log {
   height: 5rem;
@@ -238,6 +248,9 @@ ul li:hover ul {
   background-position: center center;
   background-size: cover; }
 
+.row-form {
+  margin-top: 1rem; }
+
 .titulo2 {
   padding-top: 3rem;
   padding-bottom: 3rem; }
@@ -272,7 +285,9 @@ form {
     display: none; }
   .titulo2 {
     padding-top: 1rem;
-    padding-bottom: 1rem; } }
+    padding-bottom: 1rem; }
+  .pservicios {
+    display: none; } }
 
 @media only screen and (min-width: 768px) {
   main {
