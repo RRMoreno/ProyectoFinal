@@ -6,22 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57c5547d-b614-4796-bcec-930e3b22a387" name="Default Changelist" comment="pensando en el menu de mobile">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Cambios SEO.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/404.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/common.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/estilos.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desafio10 bootstrap con js.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/estilos.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/estilos.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/contactos.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/contactos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/petshop.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/petshop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/refugio.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/refugio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/reserva.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/reserva.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/servicios.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/servicios.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +101,7 @@
       <workItem from="1605549776368" duration="2206000" />
       <workItem from="1605657695955" duration="7385000" />
       <workItem from="1606056218133" duration="4628000" />
-      <workItem from="1606061838466" duration="51000" />
+      <workItem from="1606061838466" duration="253000" />
     </task>
     <task id="LOCAL-00001" summary="moved doc">
       <created>1601986345103</created>
@@ -250,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605664530830</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Clase 13, SEO, SASS, Pag 404">
+      <created>1606061969533</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1606061969533</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +311,8 @@
     <MESSAGE value="agregando componentes de bootstrap" />
     <MESSAGE value="NEED TO FIX" />
     <MESSAGE value="modificada la pagina de servicios" />
-    <option name="LAST_COMMIT_MESSAGE" value="modificada la pagina de servicios" />
+    <MESSAGE value="Clase 13, SEO, SASS, Pag 404" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clase 13, SEO, SASS, Pag 404" />
   </component>
   <component name="WindowStateProjectService">
     <state x="672" y="290" width="580" height="333" key="#File_Watchers" timestamp="1605139401075">
@@ -393,10 +387,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606061823007" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605664534322">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1606061983082">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605664534322" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606061983082" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605149333659">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
