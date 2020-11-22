@@ -7,20 +7,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
     <link href="../css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link href="../css/estilos.css" rel="stylesheet">
     <title>La Villa Canina - Reserva</title>
-    <link rel="icon" type="image/x-icon" href="../img/logofina2.png"/>
+    <link href="../img/logofina2.png" rel="icon" type="image/x-icon"/>
 </head>
 <body>
 <header>
     <div class="left-header">
         <div>
             <a href="../index.html">
-                <img class="img-log" src="../img/logofina2.png" alt="">
+                <img alt="" class="img-log" src="../img/logofina2.png">
             </a>
         </div>
         <h1 class="titulo1">La Villa Canina</h1>
@@ -31,10 +31,10 @@
     </div>
 </header>
 <nav class="navbar navbar-expand-sm ">
-    <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold btn btn-info text-white rounded"
-            type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
-            aria-expanded="false" aria-label="Toggle navigation"> Menu
-        <i class="fa fa-bars" aria-hidden="true"></i>
+    <button aria-controls="navbarResponsive"
+            aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold btn btn-info text-white rounded" data-target="#navbarResponsive"
+            data-toggle="collapse" type="button"> Menu
+        <i aria-hidden="true" class="fa fa-bars"></i>
     </button>
     <div class="collapse navbar-collapse navegacion" id="navbarResponsive">
         <ul class="navbar-nav">
@@ -45,7 +45,7 @@
 
             <!-- Dropdown -->
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbardrop">
                     Servicios
                 </a>
                 <div class="dropdown-menu">
@@ -74,13 +74,13 @@
     <div class="titulo2 text-center">
         <h2>Reservaciones</h2>
     </div>
-    <div id="demo" class="carousel slide" data-ride="carousel">
+    <div class="carousel slide" data-ride="carousel" id="demo">
 
         <!-- Indicators -->
         <ul class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
+            <li class="active" data-slide-to="0" data-target="#demo"></li>
+            <li data-slide-to="1" data-target="#demo"></li>
+            <li data-slide-to="2" data-target="#demo"></li>
         </ul>
 
         <!-- The slideshow -->
@@ -92,10 +92,10 @@
         </div>
 
         <!-- Left and right controls -->
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <a class="carousel-control-prev" data-slide="prev" href="#demo">
             <span class="carousel-control-prev-icon"></span>
         </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
+        <a class="carousel-control-next" data-slide="next" href="#demo">
             <span class="carousel-control-next-icon"></span>
         </a>
 
@@ -105,58 +105,58 @@
             <h4 class="mb-3">Datos de las Mascotas</h4>
             <div class="row">
                 <div class="form-group col-md-6">
-                    <label for="puppyName"><i class="fa fa-paw fa-lg" aria-hidden="true"></i>Nombre de
+                    <label for="puppyName"><i aria-hidden="true" class="fa fa-paw fa-lg"></i>Nombre de
                         su mascota</label>
                     <input class="form-control" id="puppyName" placeholder="Nombre de su mascota" required>
                 </div>
                 <div class="form-group col-md-6">
                     <label for="breed">Raza</label>
-                    <input type="text" class="form-control" id="breed" placeholder="Raza de su mascota">
+                    <input class="form-control" id="breed" placeholder="Raza de su mascota" type="text">
                 </div>
             </div>
 
-                <h6 class="mb-3"><i class="fa fa-venus-mars" aria-hidden="true"></i>Sexo</h6>
-                <div class="d-block my-3">
-                    <div class="custom-control custom-radio">
-                        <input id="credit" name="sexo" type="radio" class="custom-control-input" checked
-                               required>
-                        <label class="custom-control-label" for="credit">Masculino</label>
-                    </div>
-                    <div class="custom-control custom-radio">
-                        <input id="debit" name="sexo" type="radio" class="custom-control-input" required>
-                        <label class="custom-control-label" for="debit">Femenino</label>
-                    </div>
+            <h6 class="mb-3"><i aria-hidden="true" class="fa fa-venus-mars"></i>Sexo</h6>
+            <div class="d-block my-3">
+                <div class="custom-control custom-radio">
+                    <input checked class="custom-control-input" id="credit" name="sexo" required
+                           type="radio">
+                    <label class="custom-control-label" for="credit">Masculino</label>
                 </div>
-                <div class="col-md-4 mb-3 space">
-                    <label class="mr-sm-2" for="age"><i class="fa fa-clock-o fa-lg"
-                                                    aria-hidden="true"></i>Edad</label>
-                    <select class="custom-select d-block w-100" id="age" required>
-                        <option value="">Años</option>
-                        <option value="">1</option>
-                        <option value="">2</option>
-                        <option value="">3</option>
-                        <option value="">4</option>
-                        <option value="">5</option>
-                        <option value="">6</option>
-                        <option value="">7</option>
-                        <option value="">8</option>
-                        <option value="">9</option>
-                        <option value="">10</option>
-                        <option value="">11</option>
-                        <option value="">12</option>
-                        <option value="">13</option>
-                        <option value="">14</option>
-                        <option value="">15</option>
-                        <option value="">16</option>
-                        <option value="">17</option>
-                        <option value="">18</option>
-                        <option value="">19</option>
-                        <option value="">20</option>
-                    </select>
-                    <div class="invalid-feedback">
-                        Please select a valid Age.
-                    </div>
+                <div class="custom-control custom-radio">
+                    <input class="custom-control-input" id="debit" name="sexo" required type="radio">
+                    <label class="custom-control-label" for="debit">Femenino</label>
                 </div>
+            </div>
+            <div class="col-md-4 mb-3 space">
+                <label class="mr-sm-2" for="age"><i aria-hidden="true"
+                                                    class="fa fa-clock-o fa-lg"></i>Edad</label>
+                <select class="custom-select d-block w-100" id="age" required>
+                    <option value="">Años</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">6</option>
+                    <option value="">7</option>
+                    <option value="">8</option>
+                    <option value="">9</option>
+                    <option value="">10</option>
+                    <option value="">11</option>
+                    <option value="">12</option>
+                    <option value="">13</option>
+                    <option value="">14</option>
+                    <option value="">15</option>
+                    <option value="">16</option>
+                    <option value="">17</option>
+                    <option value="">18</option>
+                    <option value="">19</option>
+                    <option value="">20</option>
+                </select>
+                <div class="invalid-feedback">
+                    Please select a valid Age.
+                </div>
+            </div>
 
         </div>
         <div class="col-md-6">
@@ -164,40 +164,42 @@
 
             <div class="row">
                 <div class="form-group col-md-6">
-                    <label for="name1"><i class="fa fa-user fa-lg" aria-hidden="true"></i>Nombre(s)</label>
-                    <input type="text" class="form-control" id="name1" required placeholder="Nombre">
+                    <label for="name1"><i aria-hidden="true" class="fa fa-user fa-lg"></i>Nombre(s)</label>
+                    <input class="form-control" id="name1" placeholder="Nombre" required type="text">
                 </div>
                 <div class="form-group col-md-6">
-                    <label for="apellido"><i class="fa fa-user fa-lg" aria-hidden="true"></i>Apellidos</label>
-                    <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+                    <label for="apellido"><i aria-hidden="true" class="fa fa-user fa-lg"></i>Apellidos</label>
+                    <input class="form-control" id="apellido" placeholder="Apellido" type="text">
                 </div>
             </div>
             <div class="form-group">
-                <label for="mail"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i>Correo</label>
-                <input type="email" class="form-control" id="mail" required placeholder="ejemplo@correo.uy">
+                <label for="mail"><i aria-hidden="true" class="fa fa-envelope fa-lg"></i>Correo</label>
+                <input class="form-control" id="mail" placeholder="ejemplo@correo.uy" required type="email">
             </div>
             <div class="form-group">
-                <label for="phone"><i class="fa fa-phone-square fa-lg"
-                                      aria-hidden="true"></i>Teléfono</label>
-                <input type="tel" class="form-control" id="phone" required placeholder="099 999999"><!--solo puede admitir numeros-->
+                <label for="phone"><i aria-hidden="true"
+                                      class="fa fa-phone-square fa-lg"></i>Teléfono</label>
+                <input class="form-control" id="phone" placeholder="099 999999" required type="tel">
+                <!--solo puede admitir numeros-->
             </div>
 
         </div>
         <div class="col-md-12">
-            <label for="comments2" ><i class="fa fa-pencil-square-o fa-lg" aria-hidden="true"></i>Comentarios</label>
-            <textarea type="number" class="form-control comments" id="comments2" placeholder="Escriba sus comentarios aqui"></textarea>
+            <label for="comments2"><i aria-hidden="true" class="fa fa-pencil-square-o fa-lg"></i>Comentarios</label>
+            <textarea class="form-control comments" id="comments2" placeholder="Escriba sus comentarios aqui"
+                      type="number"></textarea>
         </div>
-        <button type="submit" class="bottom btn btn-outline-primary" data-toggle="modal" data-target="#enviarModal">
+        <button class="bottom btn btn-outline-primary" data-target="#enviarModal" data-toggle="modal" type="submit">
             Enviar
         </button>
 
         <!-- ventana que aparece hasta que los campos requeridos estan llenos correctamente,--- esto puede cambiar-->
-        <div class="modal fade" id="enviarModal" tabindex="-1" role="dialog"  aria-hidden="true">
+        <div aria-hidden="true" class="modal fade" id="enviarModal" role="dialog" tabindex="-1">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" >ERROR</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <h5 class="modal-title">ERROR</h5>
+                        <button aria-label="Close" class="close" data-dismiss="modal" type="button">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -205,13 +207,13 @@
                         Por favor verifque que los campos requeridos esten llenos
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+                        <button class="btn btn-outline-primary" data-dismiss="modal" type="button">Close</button>
 
                     </div>
                 </div>
             </div>
         </div>
-        <button type="reset" class="bottom btn btn-outline-primary">Restablecer</button>
+        <button class="bottom btn btn-outline-primary" type="reset">Restablecer</button>
     </div>
 </main>
 <footer>

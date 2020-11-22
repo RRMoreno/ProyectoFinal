@@ -1,7 +1,7 @@
 @import "variables";
 @import "404";
 
-@mixin animacionZoom($scalaX, $scalaY){
+@mixin animacionZoom($scalaX, $scalaY) {
   transform: scale($scalaX, $scalaY);
   transition: all 0.5s;
 }
