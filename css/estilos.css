@@ -1,4 +1,86 @@
-/*variables lo que es mas repetitivo: colores, fontfamily....*/
+.not-found-page {
+  /* CSS Reset */ }
+  .not-found-page html, .not-found-page body, .not-found-page div, .not-found-page span, .not-found-page applet, .not-found-page object, .not-found-page iframe, .not-found-page h1, .not-found-page h2, .not-found-page h3, .not-found-page h4, .not-found-page h5, .not-found-page h6, .not-found-page p, .not-found-page blockquote, .not-found-page pre, .not-found-page a, .not-found-page abbr, .not-found-page acronym, .not-found-page address, .not-found-page big, .not-found-page cite, .not-found-page code, .not-found-page del, .not-found-page dfn, .not-found-page em, .not-found-page img, .not-found-page ins, .not-found-page kbd, .not-found-page q, .not-found-page s, .not-found-page samp, .not-found-page small, .not-found-page strike, .not-found-page strong, .not-found-page sub, .not-found-page sup, .not-found-page tt, .not-found-page var, .not-found-page b, .not-found-page u, .not-found-page i, .not-found-page center, .not-found-page dl, .not-found-page dt, .not-found-page dd, .not-found-page ol, .not-found-page ul, .not-found-page li, .not-found-page fieldset, .not-found-page form, .not-found-page label, .not-found-page legend, .not-found-page table, .not-found-page caption, .not-found-page tbody, .not-found-page tfoot, .not-found-page thead, .not-found-page tr, .not-found-page th, .not-found-page td, .not-found-page article, .not-found-page aside, .not-found-page canvas, .not-found-page details, .not-found-page embed, .not-found-page figure, .not-found-page figcaption, .not-found-page footer, .not-found-page header, .not-found-page hgroup, .not-found-page menu, .not-found-page nav, .not-found-page output, .not-found-page ruby, .not-found-page section, .not-found-page summary, .not-found-page time, .not-found-page mark, .not-found-page audio, .not-found-page video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline; }
+  .not-found-page * {
+    margin: 0;
+    padding: 0; }
+  .not-found-page body {
+    width: 100%;
+    height: 100%;
+    font: 12px "Open Sans", sans-serif; }
+  .not-found-page #wrapper {
+    width: 50%;
+    height: 560px;
+    overflow: hidden;
+    margin: 20px auto;
+    background: #fff;
+    border: 1px solid #c6c6c6; }
+  .not-found-page div.screen {
+    height: 560px;
+    overflow: hidden;
+    background: transparent;
+    margin: 15px; }
+  .not-found-page .list {
+    margin-top: 36px;
+    text-align: left; }
+  .not-found-page .item {
+    height: 115px;
+    margin-left: 115px;
+    clear: both; }
+  .not-found-page .item .img, .not-found-page .item span {
+    background: #f0f0f0; }
+  .not-found-page .item .img {
+    float: left;
+    width: 96px;
+    height: 81px;
+    margin-left: -113px; }
+  .not-found-page .item span {
+    height: 11px;
+    width: 320px;
+    margin-bottom: 19px;
+    float: left; }
+  .not-found-page .item span:nth-of-type(3) {
+    width: 95px;
+    margin-bottom: 0; }
+  .not-found-page a:link {
+    color: #e76e66;
+    text-decoration: none;
+    outline: none;
+    transition: all 0.25s; }
+  .not-found-page a:visited {
+    color: #666;
+    text-decoration: none; }
+  .not-found-page a:link:hover {
+    color: #666;
+    text-decoration: none; }
+  .not-found-page a:visited:hover {
+    color: #e76e66;
+    text-decoration: none; }
+  .not-found-page .container {
+    position: absolute;
+    width: 100vw;
+    height: 120vh;
+    max-width: 120vmin;
+    max-height: 120vmin;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -40%);
+    transform: translate(-50%, -40%); }
+  .not-found-page .container p {
+    text-align: center;
+    font-size: 30px; }
+  .not-found-page .particles-js-canvas-el {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 100%;
+    right: 100%; }
+
 html {
   height: 100%; }
 
@@ -8,10 +90,12 @@ body {
   display: flex;
   flex-direction: column; }
 
+.main-font, .container, a, .navegacion ul li a, footer {
+  font-family: 'Didact Gothic', sans-serif; }
+
 .container {
   text-align: justify-all;
-  color: #111111;
-  font-family: 'Didact Gothic', sans-serif; }
+  color: #111111; }
 
 main {
   flex-grow: 1;
@@ -22,7 +106,6 @@ a {
   text-decoration: none;
   color: #4293ba;
   font-size: 1rem;
-  font-family: 'Didact Gothic', sans-serif;
   font-weight: bold; }
 
 .parrafo {
@@ -54,7 +137,6 @@ nav {
       color: #4293ba;
       text-decoration: none;
       margin-right: 10px;
-      font-family: 'Didact Gothic', sans-serif;
       font-weight: bold;
       font-size: larger; }
   .navegacion ul.vertical-list li {
@@ -97,7 +179,6 @@ header {
 footer {
   background-image: url("../img/footer.png ");
   padding-top: 4rem;
-  font-family: 'Didact Gothic', sans-serif;
   width: 100%;
   height: auto;
   display: flex;

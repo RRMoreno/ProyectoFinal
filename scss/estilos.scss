@@ -1,60 +1,5 @@
-// Variables
-$primaryColor: #4293ba;
-$primaryTextColor: #111111;
-$gradientSecondaryColor: #f9fcfe;
-$titlecolor: #4085f1;
-
-
-/*variables lo que es mas repetitivo: colores, fontfamily....*/
-html {
-  height: 100%;
-}
-
-body {
-  height: 100%;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-.container {
-  text-align: justify-all;
-  color: $primaryTextColor;
-  font-family: 'Didact Gothic', sans-serif;
-}
-
-main {
-  flex-grow: 1;
-  width: 100%;
-  align-self: center;
-}
-
-a {
-  text-decoration: none;
-  color: $primaryColor;
-  font-size: 1rem;
-  font-family: 'Didact Gothic', sans-serif;
-  font-weight: bold;
-}
-
-.parrafo {
-  font-size: 1rem;
-}
-
-nav {
-  background-image: linear-gradient($primaryColor, $gradientSecondaryColor);
-
-  ul {
-    list-style-type: none;
-    padding: 1rem 0;
-
-    li {
-      div {
-        background-image: linear-gradient(#deedf4, $gradientSecondaryColor, transparent);
-      }
-    }
-  }
-}
+@import "variables";
+@import "common";
 
 .log {
   width: 4rem;
@@ -79,7 +24,7 @@ nav {
         color: $primaryColor;
         text-decoration: none;
         margin-right: 10px;
-        font-family: 'Didact Gothic', sans-serif;
+        @extend .main-font;
         font-weight: bold;
         font-size: larger;
       }
@@ -140,7 +85,7 @@ header {
 footer {
   background-image: url("../img/footer.png ");
   padding-top: 4rem;
-  font-family: 'Didact Gothic', sans-serif;
+  @extend .main-font;
   width: 100%;
   height: auto;
   display: flex;
@@ -255,6 +200,7 @@ ul {
     }
   }
 }
+
 .row-servicios {
   display: flex;
   flex-wrap: wrap;
@@ -262,14 +208,16 @@ ul {
   margin-left: -15px;
   margin-bottom: 1rem;
 }
+
 .img-servicios {
-   width: 192px;
+  width: 192px;
   height: 187px;
 
 
 }
-p{
-  .pservicios{
+
+p {
+  .pservicios {
     text-align: justify-all;
     margin-left: 1rem;
 
@@ -295,8 +243,7 @@ p{
 
   .scalar {
     &:hover {
-      transform: scale(2, 2);
-      transition: all 0.5s;
+      @include animacionZoom(2, 2);
     }
   }
 }
@@ -350,13 +297,14 @@ p{
   background-position: center center;
   background-size: cover;
 }
+
 .img-carousel3 {
   background-image: url("../img/instalaciones.JPG");
   background-position: center center;
   background-size: cover;
 }
 
-.row-form{
+.row-form {
   margin-top: 1rem;
 }
 
@@ -410,7 +358,7 @@ form {
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
-  .pservicios{
+  .pservicios {
     display: none;
   }
 
@@ -445,7 +393,6 @@ form {
     width: 100%;
     margin-top: 1rem;
   }
-
 
 
 }

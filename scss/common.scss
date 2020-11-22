@@ -1,0 +1,61 @@
+@import "variables";
+@import "404";
+
+@mixin animacionZoom($scalaX, $scalaY){
+  transform: scale($scalaX, $scalaY);
+  transition: all 0.5s;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-font {
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+.container {
+  text-align: justify-all;
+  color: $primaryTextColor;
+  @extend .main-font;
+}
+
+main {
+  flex-grow: 1;
+  width: 100%;
+  align-self: center;
+}
+
+a {
+  text-decoration: none;
+  color: $primaryColor;
+  font-size: 1rem;
+  @extend .main-font;
+  font-weight: bold;
+}
+
+.parrafo {
+  font-size: 1rem;
+}
+
+nav {
+  background-image: linear-gradient($primaryColor, $gradientSecondaryColor);
+
+  ul {
+    list-style-type: none;
+    padding: 1rem 0;
+
+    li {
+      div {
+        background-image: linear-gradient(#deedf4, $gradientSecondaryColor, transparent);
+      }
+    }
+  }
+}
