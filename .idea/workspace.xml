@@ -6,12 +6,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57c5547d-b614-4796-bcec-930e3b22a387" name="Default Changelist" comment="Cambiar titulo de la pagina principal">
-      <change afterPath="$PROJECT_DIR$/desafio14.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/instalaciones1.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/img/instalaciones1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/estilos.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/estilos.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logofina2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/contactos.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/contactos.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/guarderia.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/guarderia.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/movilidad.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/movilidad.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/petshop.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/petshop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/refugio.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/refugio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/reserva.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/reserva.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/servicios.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/servicios.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/spa.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/spa.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/vet.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/vet.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/zonajuegos.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/zonajuegos.html" afterDir="false" />
@@ -116,7 +120,7 @@
       <workItem from="1606061838466" duration="1546000" />
       <workItem from="1606075889848" duration="2904000" />
       <workItem from="1606169497960" duration="599000" />
-      <workItem from="1606383082716" duration="485000" />
+      <workItem from="1606383082716" duration="977000" />
     </task>
     <task id="LOCAL-00001" summary="moved doc">
       <created>1601986345103</created>
@@ -272,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606063508396</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="modificacion de nombre de imagen:&#10;comingSoon a comingsoon&#10;JPG a jpg">
+      <created>1606383780871</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1606383780871</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,7 +359,8 @@
     <MESSAGE value="Clase 13, SEO, SASS, Pag 404" />
     <MESSAGE value="Nothing" />
     <MESSAGE value="Nueva rama para desarrollo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nueva rama para desarrollo" />
+    <MESSAGE value="modificacion de nombre de imagen:&#10;comingSoon a comingsoon&#10;JPG a jpg" />
+    <option name="LAST_COMMIT_MESSAGE" value="modificacion de nombre de imagen:&#10;comingSoon a comingsoon&#10;JPG a jpg" />
   </component>
   <component name="WindowStateProjectService">
     <state x="672" y="290" width="580" height="333" key="#File_Watchers" timestamp="1605139401075">
@@ -423,10 +435,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606061823007" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1606063513668">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1606383785025">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606063513668" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606383785025" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605149333659">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -439,10 +451,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="803" y="253" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606061792189" />
-    <state x="664" y="119" width="585" height="801" key="find.popup" timestamp="1606062931176">
+    <state x="664" y="119" width="585" height="801" key="find.popup" timestamp="1606384052157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="664" y="119" width="585" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606062931176" />
+    <state x="664" y="119" width="585" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606384052157" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1606061286283">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
