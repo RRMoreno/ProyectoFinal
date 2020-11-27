@@ -7,6 +7,9 @@
   <component name="ChangeListManager">
     <list default="true" id="57c5547d-b614-4796-bcec-930e3b22a387" name="Default Changelist" comment="Cambiar titulo de la pagina principal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logofinal2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/estilos.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/estilos.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/servicios.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/servicios.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +64,7 @@
       <recent name="D:\CODERHOUSE\Proyecto final\docs" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.404.html">
+  <component name="RunManager" selected="npm.watch-css">
     <configuration name="404.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ProyectoFinal/404.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -77,8 +80,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.404.html" />
         <item itemvalue="npm.watch-css" />
+        <item itemvalue="JavaScript Debug.404.html" />
       </list>
     </recent_temporary>
   </component>
@@ -109,6 +112,7 @@
       <workItem from="1606075889848" duration="2904000" />
       <workItem from="1606169497960" duration="599000" />
       <workItem from="1606383082716" duration="2018000" />
+      <workItem from="1606517029583" duration="850000" />
     </task>
     <task id="LOCAL-00001" summary="moved doc">
       <created>1601986345103</created>
