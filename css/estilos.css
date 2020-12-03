@@ -307,6 +307,16 @@ p .pservicios {
   background-position: center center;
   background-size: cover; }
 
+.pet-carousel2 {
+  background-image: url("../img/petshop1.jpg");
+  background-position: center center;
+  background-size: cover; }
+
+.pet-carousel3 {
+  background-image: url("../img/petshop4.jpg");
+  background-position: center center;
+  background-size: cover; }
+
 .arrow-left {
   grid-area: area1;
   font-size: 2rem;
