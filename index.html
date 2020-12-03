@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="La Villa Canina es el lugar perfecto para que tu mascota tenga un dia de relax con todo
-    el comfort y el mismo cariño que le tienes porque nosotros entendemos que para ti al igual que para nosotros tu mascota es familia." name="description">
+    el comfort y el mismo cariño que le tienes porque nosotros entendemos que para ti al igual que para nosotros tu mascota es familia."
+          name="description">
     <meta content="Pet, Mascota, Petshop, Refugio, Perro" name="keywords">
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
@@ -37,7 +38,9 @@
 
 <nav class="navbar navbar-expand-sm ">
     <button aria-controls="navbarResponsive"
-            aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold btn btn-info text-white rounded" data-target="#navbarResponsive"
+            aria-expanded="false" aria-label="Toggle navigation"
+            class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold btn btn-info text-white rounded"
+            data-target="#navbarResponsive"
             data-toggle="collapse" type="button"> Menu
         <i aria-hidden="true" class="fa fa-bars"></i>
     </button>
@@ -77,44 +80,49 @@
 </nav>
 <!--puede cambiar :( -->
 <main class="container">
+    <div class="carousel slide" data-ride="carousel" id="demo">
 
-    <div class="grid-container">
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li class="active" data-slide-to="0" data-target="#demo"></li>
+            <li data-slide-to="1" data-target="#demo"></li>
+            <li data-slide-to="2" data-target="#demo"></li>
+            <li data-slide-to="3" data-target="#demo"></li>
+        </ul>
 
-        <!--mejorara con js-->
-        <div class="arrow-left">
-            <i aria-hidden="true" class="fa fa-arrow-circle-left"></i>
-        </div>
-        <section class="galeria">
-            <img class="scalar " src="img/chimuelo0.jpg">
-            <img class="scalar" src="img/zoe.jpg">
-            <img class="scalar" src="img/PhotoComingSoon.jpg">
-            <img class="scalar" src="img/chimuelo.jpg">
-            <img class="scalar" src="img/toby.jpg">
-            <img class="scalar" src="img/chimuelo3.jpg">
-            <img class="scalar" src="img/leo.jpg">
-            <img class="scalar" src="img/chimuelo8.jpg">
-            <img class="scalar" src="img/PhotoComingSoon.jpg">
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item index-carousel1 active "></div>
+            <div class="carousel-item index-carousel2"></div>
+            <div class="carousel-item index-carousel3"></div>
+            <div class="carousel-item index-carousel4"></div>
 
-
-        </section>
-        <div class="arrow-right">
-            <i aria-hidden="true" class="fa fa-arrow-circle-right"></i>
         </div>
 
-        <!--los colores pueden variar-->
-        <div class="text">
-            <p>Nuestra <strong>Villa Canina</strong> cuenta con mas de 50 hectareas para que nuestros cachorros
-                pasen una estadia Increible, es un alojamiento de diseño en el que no faltan las «habitaciones»
-                individuales, piscina y un jardín de entrenamiento para las mascotas.</p>
-            <p>Contamos con variedad de servicios entre los que se encuentra un <strong><a
-                    href="views/petshop.html">PetShop</a></strong> para comparle a nuestro cachorro todos los juguetes
-                que
-                el desee, ademas de su comida favorita y accesorios </p>
-            <p>Recientemente inauguramos un <strong><a href="views/refugio.html">Refugio</a></strong> donde
-                nuestros cachorros rescatados son atendidos por nuestros mejores veterinarios y reciben muchos mimos
-                hasta
-                encontrar una familia que los llene de amor</p>
-        </div>
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" data-slide="prev" href="#demo">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" data-slide="next" href="#demo">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+    </div>
+
+
+    <!--los colores pueden variar-->
+    <div class="text">
+        <p>Nuestra <strong>Villa Canina</strong> cuenta con mas de 50 hectareas para que nuestros cachorros
+            pasen una estadia Increible, es un alojamiento de diseño en el que no faltan las «habitaciones»
+            individuales, piscina y un jardín de entrenamiento para las mascotas.</p>
+        <p>Contamos con variedad de servicios entre los que se encuentra un <strong><a
+                href="views/petshop.html">PetShop</a></strong> para comparle a nuestro cachorro todos los juguetes
+            que
+            el desee, ademas de su comida favorita y accesorios </p>
+        <p>Recientemente inauguramos un <strong><a href="views/refugio.html">Refugio</a></strong> donde
+            nuestros cachorros rescatados son atendidos por nuestros mejores veterinarios y reciben muchos mimos
+            hasta
+            encontrar una familia que los llene de amor</p>
     </div>
 
 

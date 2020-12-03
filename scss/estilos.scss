@@ -247,6 +247,32 @@ p {
     }
   }
 }
+.index-carousel1 {
+  background-image: url("../img/chimuelo.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.index-carousel2 {
+  background-image: url("../img/petshop.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+.index-carousel3 {
+  background-image: url("../img/chimuelo9.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+.index-carousel4 {
+  background-image: url("../img/instalaciones3.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+.pet-carousel1 {
+  background-image: url("../img/petshop.jpg");
+  background-position: center center;
+  background-size: cover;
+}
 
 .arrow-left {
   grid-area: area1;
@@ -280,20 +306,21 @@ p {
   grid-template-rows: 160px auto;
   grid-template-areas: "area2" "area4";
 }
-
 .carousel-item {
   height: 500px;
 
 }
 
+
+
 .img-carousel1 {
-  background-image: url("../img/instalaciones1.jpg");
+  background-image: url("../img/instalaciones3.jpg");
   background-position: center center;
   background-size: cover;
 }
 
 .img-carousel2 {
-  background-image: url("../img/instalaciones2.jpg");
+  background-image: url("../img/instalaciones4.jpg");
   background-position: center center;
   background-size: cover;
 }
