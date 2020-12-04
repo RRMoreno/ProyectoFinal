@@ -6,6 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57c5547d-b614-4796-bcec-930e3b22a387" name="Default Changelist" comment="Cambiar titulo de la pagina principal">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/estilos.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/27b.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/img/El hotel para perros más grande del mundo.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/img/chimuelo2.jpg" beforeDir="false" />
@@ -16,6 +18,7 @@
       <change beforePath="$PROJECT_DIR$/img/logofinal2.JPG" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/img/petshop2.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/estilos.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/estilos.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/refugio.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/refugio.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +124,7 @@
       <workItem from="1606517029583" duration="2869000" />
       <workItem from="1606690503628" duration="752000" />
       <workItem from="1606995506693" duration="1147000" />
-      <workItem from="1607036425797" duration="3074000" />
+      <workItem from="1607036425797" duration="4663000" />
     </task>
     <task id="LOCAL-00001" summary="moved doc">
       <created>1601986345103</created>
@@ -319,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607039409255</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="agregando carousel a la pagina del petshop">
+      <created>1607039882504</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1607039882504</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,7 +410,8 @@
     <MESSAGE value="modificado pagina de servios en vista movil" />
     <MESSAGE value="modificado pagina de servios en vista table" />
     <MESSAGE value="cambio de galeria de la pagina index por un carousel" />
-    <option name="LAST_COMMIT_MESSAGE" value="cambio de galeria de la pagina index por un carousel" />
+    <MESSAGE value="agregando carousel a la pagina del petshop" />
+    <option name="LAST_COMMIT_MESSAGE" value="agregando carousel a la pagina del petshop" />
   </component>
   <component name="WindowStateProjectService">
     <state x="672" y="290" width="580" height="333" key="#File_Watchers" timestamp="1605139401075">
@@ -475,10 +486,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606061823007" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1607039411083">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1607039886471">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607039411083" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607039886471" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605149333659">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

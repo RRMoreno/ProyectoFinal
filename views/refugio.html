@@ -84,23 +84,33 @@
     <!--galeria con las imagenes de los perritos en adopcion -->
     <h3>Listos para ADOPCION</h3>
 
-    <div class="galeria-flex">
-        <div class="arrow-left">
-            <i aria-hidden="true" class="fa fa-arrow-circle-left"></i>
-        </div>
-        <section class="galeria">
-            <img class="scalar" src="../img/chimuelo7.jpg">
-            <img class="scalar" src="../img/toby.jpg">
-            <img class="scalar" src="../img/leo.jpg">
-            <img class="scalar" src="../img/zoe1.jpg">
-            <img class="scalar" src="../img/cusi.jpg">
-            <img class="scalar" src="../img/adop1.jpg">
-            <img class="scalar" src="../img/chimuelo9.jpg">
+    <div class="carousel slide" data-ride="carousel" id="demo">
 
-        </section>
-        <div class="arrow-right">
-            <i aria-hidden="true" class="fa fa-arrow-circle-right"></i>
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li class="active" data-slide-to="0" data-target="#demo"></li>
+            <li data-slide-to="1" data-target="#demo"></li>
+            <li data-slide-to="2" data-target="#demo"></li>
+            <li data-slide-to="3" data-target="#demo"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item refigio-carousel1 active "></div>
+            <div class="carousel-item refigio-carousel2"></div>
+            <div class="carousel-item refigio-carousel3"></div>
+            <div class="carousel-item refigio-carousel4"></div>
+
         </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" data-slide="prev" href="#demo">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" data-slide="next" href="#demo">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
     </div>
     <table class="table table-hover table-responsive-sm ">
         <thead>

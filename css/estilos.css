@@ -282,6 +282,7 @@ p .pservicios {
     transform: scale(2, 2);
     transition: all 0.5s; }
 
+/*index*/
 .index-carousel1 {
   background-image: url("../img/chimuelo.jpg");
   background-position: center center;
@@ -302,6 +303,7 @@ p .pservicios {
   background-position: center center;
   background-size: cover; }
 
+/*petshop*/
 .pet-carousel1 {
   background-image: url("../img/petshop.jpg");
   background-position: center center;
@@ -314,6 +316,27 @@ p .pservicios {
 
 .pet-carousel3 {
   background-image: url("../img/petshop4.jpg");
+  background-position: center center;
+  background-size: cover; }
+
+/*refugio*/
+.refigio-carousel1 {
+  background-image: url("../img/toby.jpg");
+  background-position: center center;
+  background-size: cover; }
+
+.refigio-carousel2 {
+  background-image: url("../img/leo.jpg");
+  background-position: center center;
+  background-size: cover; }
+
+.refigio-carousel3 {
+  background-image: url("../img/chimuelo7.jpg");
+  background-position: center center;
+  background-size: cover; }
+
+.refigio-carousel4 {
+  background-image: url("../img/zoe1.jpg");
   background-position: center center;
   background-size: cover; }
 
@@ -360,7 +383,7 @@ p .pservicios {
   background-size: cover; }
 
 .img-carousel3 {
-  background-image: url("../img/instalaciones.jpg");
+  background-image: url("../img/spa.jpg");
   background-position: center center;
   background-size: cover; }
 
