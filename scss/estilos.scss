@@ -260,11 +260,13 @@ p {
   background-position: center center;
   background-size: cover;
 }
+
 .index-carousel3 {
   background-image: url("../img/chimuelo9.jpg");
   background-position: center center;
   background-size: cover;
 }
+
 .index-carousel4 {
   background-image: url("../img/instalaciones3.jpg");
   background-position: center center;
@@ -277,32 +279,38 @@ p {
   background-position: center center;
   background-size: cover;
 }
+
 .pet-carousel2 {
   background-image: url("../img/petshop1.jpg");
   background-position: center center;
   background-size: cover;
 }
+
 .pet-carousel3 {
   background-image: url("../img/petshop4.jpg");
   background-position: center center;
   background-size: cover;
 }
+
 /*refugio*/
 .refigio-carousel1 {
   background-image: url("../img/toby.jpg");
   background-position: center center;
   background-size: cover;
 }
+
 .refigio-carousel2 {
   background-image: url("../img/leo.jpg");
   background-position: center center;
   background-size: cover;
 }
+
 .refigio-carousel3 {
   background-image: url("../img/chimuelo7.jpg");
   background-position: center center;
   background-size: cover;
 }
+
 .refigio-carousel4 {
   background-image: url("../img/zoe1.jpg");
   background-position: center center;
@@ -341,11 +349,11 @@ p {
   grid-template-rows: 160px auto;
   grid-template-areas: "area2" "area4";
 }
+
 .carousel-item {
   height: 500px;
 
 }
-
 
 
 .img-carousel1 {
@@ -422,6 +430,9 @@ form {
   }
   .pservicios {
     display: none;
+  }
+  .navbar {
+    justify-content: flex-end !important;
   }
   .img-servicios {
     width: 100%;

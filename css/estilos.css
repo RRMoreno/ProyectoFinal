@@ -427,6 +427,8 @@ form {
     padding-bottom: 1rem; }
   .pservicios {
     display: none; }
+  .navbar {
+    justify-content: flex-end !important; }
   .img-servicios {
     width: 100%; }
   .texto {
